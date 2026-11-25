@@ -84,6 +84,21 @@ export async function readParquet(buf: ArrayBuffer, columns?: string[]): Promise
   return (await parquetReadObjects({ file: buf, columns })) as Row[];
 }
 
+const metricsCache = new Map<string, Promise<Metrics>>();
+/** metrics.json seul (vue Sensibilité : pas de Parquet). */
+export function loadMetrics(runId: string, path: string): Promise<Metrics> {
+  let p = metricsCache.get(runId);
+  if (!p) {
+    p = json<Metrics>(`${DATA_URL}${path}/metrics.json`).then((m) => {
+      if (m.schema_version !== 2) throw new SchemaError(`${runId} : metrics en schema_version ${m.schema_version}, inconnue.`);
+      return m;
+    });
+    p.catch(() => metricsCache.delete(runId));
+    metricsCache.set(runId, p);
+  }
+  return p;
+}
+
 const runCache = new Map<string, Promise<Run>>();
 export function loadRun(runId: string, path: string): Promise<Run> {
   let p = runCache.get(runId);
