@@ -4,8 +4,10 @@
 
 Écrit tests/fixtures/rolling_reference.json : pour ma200_long_cash vs bh sur
 QQQ (indice TWR EUR brut), N = 1, 2, 3 ans, chaque fenêtre (départ, fin,
-rendements annualisés, écart) et le résumé. tests/rolling.test.ts compare le
-calcul TypeScript à cette référence.
+rendements annualisés, écart) et le résumé, AINSI QUE les deux séries
+d'entrée (dates, valeurs) : le test est autonome et ne dépend pas des
+run_id présents dans data/ (un nouvel export ne le casse pas).
+tests/rolling.test.ts compare le calcul TypeScript à cette référence.
 
 Définition : départs = première séance de chaque mois ; fin visée = départ +
 N ans (pd.DateOffset) ; fenêtre retenue si fin visée <= dernière séance ;
@@ -55,7 +57,10 @@ def windows(s: pd.Series, r: pd.Series, years: int) -> list[dict]:
 def main() -> None:
     sp, rp = run_path("ma200_long_cash", "QQQ"), run_path("bh", "QQQ")
     s, r = series(sp), series(rp)
-    doc = {"strategy_path": sp, "reference_path": rp, "column": COLUMN, "windows": {}}
+    doc = {"strategy_path": sp, "reference_path": rp, "column": COLUMN,
+           "series": {k: {"t": [int(x.timestamp()) for x in v.index], "v": v.tolist()}
+                      for k, v in (("strategy", s), ("reference", r))},
+           "windows": {}}
     for n in (1, 2, 3):
         ws = windows(s, r, n)
         d = pd.Series([w["delta"] for w in ws])
@@ -63,7 +68,7 @@ def main() -> None:
                                   "mean": float(d.mean()), "median": float(d.median()),
                                   "items": ws}
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(doc, indent=1), encoding="utf-8")
+    OUT.write_text(json.dumps(doc, separators=(",", ":")), encoding="utf-8")
     print(f"{OUT} : " + ", ".join(f"N={k} {v['n']} fenêtres, {v['win_share']:.1%} gagnantes"
                                   for k, v in doc["windows"].items()))
 

@@ -2,19 +2,15 @@ import fs from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
 import { rollingWindows, summarize } from "../src/data/rolling";
-import { twr } from "../src/data/series";
-import { readRun } from "./helpers";
 
 const REF = JSON.parse(fs.readFileSync(path.resolve(__dirname, "fixtures", "rolling_reference.json"), "utf8"));
 const day = (t: number) => new Date(t * 1000).toISOString().slice(0, 10);
 
 describe("fenêtres glissantes vs référence Python (scripts/rolling_reference.py)", () => {
   for (const n of [1, 2, 3]) {
-    it(`N = ${n} an(s) : mêmes fenêtres, mêmes écarts`, async () => {
-      const [s, r] = await Promise.all([readRun(REF.strategy_path), readRun(REF.reference_path)]);
-      const a = twr(s, "eur", false), b = twr(r, "eur", false);
-      if (!a.ok || !b.ok) throw new Error("indice EUR brut attendu");
-      const ws = rollingWindows(a.series, b.series, n);
+    it(`N = ${n} an(s) : mêmes fenêtres, mêmes écarts`, () => {
+      // séries embarquées dans la fixture (indices TWR EUR brut de ma200_long_cash et bh, QQQ)
+      const ws = rollingWindows(REF.series.strategy, REF.series.reference, n);
       const ref = REF.windows[String(n)];
       expect(ws.length).toBe(ref.n);
       ws.forEach((w, i) => {
