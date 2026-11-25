@@ -20,10 +20,13 @@ const TYPES: Record<string, string> = {
 /** Sert <repo>/data/ sous <base>data/ en dev ; le copie dans dist/data/ au build. */
 export function dataDir(dir: string = DATA_DIR): Plugin {
   let outDir = "";
+  let isBuild = false;
   return {
     name: "trading-dashboard-data",
     configResolved(cfg) {
       outDir = path.resolve(cfg.root, cfg.build.outDir);
+      // Vitest déclenche aussi closeBundle (outDir fictif) : copie au seul vrai build.
+      isBuild = cfg.command === "build" && !process.env.VITEST;
     },
     configureServer(server) {
       const prefix = `${BASE}data/`;
@@ -42,7 +45,7 @@ export function dataDir(dir: string = DATA_DIR): Plugin {
       });
     },
     closeBundle() {
-      if (!outDir || !fs.existsSync(dir)) return;
+      if (!isBuild || !outDir || !fs.existsSync(dir)) return;
       fs.cpSync(dir, path.join(outDir, "data"), { recursive: true });
     },
   };

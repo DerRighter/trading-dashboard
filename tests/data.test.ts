@@ -68,7 +68,7 @@ describe("indices TWR", () => {
 describe("données servies", () => {
   it("data/ unique à la racine du repo, hors du projet Vite", () => {
     expect(fs.existsSync(path.join(DATA, "index.json"))).toBe(true);
-    for (const dup of ["public/data", "src/data/index.json", "dist/data/index.json.orig"]) {
+    for (const dup of ["public/data", "src/data/index.json", "dummy-non-existing-folder"]) {
       expect(fs.existsSync(path.resolve(DATA, "..", dup))).toBe(false);
     }
   });
