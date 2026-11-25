@@ -1,0 +1,25 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-11-25T14:22:45+00:00",
+ "source": {
+  "repo": "trading-bot",
+  "sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b"
+ },
+ "basis": "journal d'essais complet de trading-bot (runs non exportés inclus) ; contrôles (origin=check) comptés à part",
+ "trials": {
+  "bh": 20,
+  "bh_dca": 20,
+  "ma200_long_cash": 20
+ },
+ "checks": {
+  "bh": 1
+ },
+ "trials_by_split": {
+  "train": {
+   "bh": 20,
+   "bh_dca": 20,
+   "ma200_long_cash": 20
+  },
+  "validation": {}
+ }
+}

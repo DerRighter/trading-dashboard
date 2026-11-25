@@ -1,0 +1,334 @@
+{
+ "schema_version": 2,
+ "run_id": "20261125T141640Z_bh_dca_AMAT_b676b27f",
+ "views": {
+  "usd_gross": {
+   "twr_total": 10.401296209675733,
+   "cagr": 0.18992306674290105,
+   "sharpe": 0.6519429969456342,
+   "sortino": 0.9445165395199564,
+   "max_drawdown": -0.6182099619849649,
+   "irr": 0.27816292766442735,
+   "capital_invested": 105128.2475,
+   "final_value": 1001762.8249858324,
+   "gain": 896634.5774858324
+  },
+  "eur_gross": {
+   "twr_total": 13.745923624617431,
+   "cagr": 0.211995658969784,
+   "sharpe": 0.7025613837070219,
+   "sortino": 1.026045166086772,
+   "max_drawdown": -0.5209919253234641,
+   "irr": 0.2989102179263157,
+   "capital_invested": 84000.0,
+   "final_value": 880515.7994074294,
+   "gain": 796515.7994074294
+  },
+  "usd_net": {
+   "twr_total": 7.162816960076253,
+   "cagr": 0.16185128876901111,
+   "sharpe": 0.5858372124641321,
+   "sortino": 0.8307467730320467,
+   "max_drawdown": -0.6182099619849649,
+   "irr": 0.23818838630789874,
+   "capital_invested": 105128.2475,
+   "final_value": 717217.2731402811,
+   "gain": 612089.0256402812
+  },
+  "eur_net": {
+   "twr_total": 9.557420247784236,
+   "cagr": 0.1834031608538793,
+   "sharpe": 0.6349538882317924,
+   "sortino": 0.9064383841671131,
+   "max_drawdown": -0.5209919253234641,
+   "irr": 0.25799089232240374,
+   "capital_invested": 84000.0,
+   "final_value": 630409.8383934966,
+   "gain": 546409.8383934966
+  }
+ },
+ "trades_total": 168,
+ "trades_per_year": 12.003521126760564,
+ "exposure_mean": 1.0,
+ "gross_pnl_usd": 896823.5653377622,
+ "costs_usd": 188.98785192961407,
+ "edge_to_cost_ratio": 4745.4032424886855,
+ "tax": {
+  "label": "estimation pour comparaison, pas un calcul fiscal",
+  "regime": "cto",
+  "mode": "terminal",
+  "total_tax_eur": 250105.96101393283,
+  "terminal_tax_eur": 250105.96101393283,
+  "events": [
+   {
+    "year": 2021,
+    "kind": "terminal",
+    "date": "2021-12-31",
+    "net_gain_eur": 796515.7994074294,
+    "losses_used_eur": 0.0,
+    "taxable_eur": 796515.7994074294,
+    "tax_eur": 250105.96101393283,
+    "losses_carried_eur": 0
+   }
+  ]
+ },
+ "by_regime": {
+  "usd_gross": {
+   "bull": {
+    "sessions": 2306,
+    "share": 0.653998865570051,
+    "ann_return": 0.22510346935412728,
+    "ann_vol": 0.32627755962944677,
+    "sharpe": 0.689914040088375,
+    "exposure_mean": 1.0
+   },
+   "bear": {
+    "sessions": 1220,
+    "share": 0.34600113442994895,
+    "ann_return": 0.281266462844402,
+    "ann_vol": 0.4533550588287076,
+    "sharpe": 0.6204109943563545,
+    "exposure_mean": 1.0
+   },
+   "undefined": {
+    "sessions": 0,
+    "share": 0.0,
+    "ann_return": null,
+    "ann_vol": null,
+    "sharpe": null,
+    "exposure_mean": null
+   }
+  },
+  "eur_gross": {
+   "bull": {
+    "sessions": 2306,
+    "share": 0.653998865570051,
+    "ann_return": 0.23145587218810199,
+    "ann_vol": 0.3279575146484198,
+    "sharpe": 0.7057495616047388,
+    "exposure_mean": 1.0
+   },
+   "bear": {
+    "sessions": 1220,
+    "share": 0.34600113442994895,
+    "ann_return": 0.3200690496381822,
+    "ann_vol": 0.4462176639360836,
+    "sharpe": 0.7172935441749547,
+    "exposure_mean": 1.0
+   },
+   "undefined": {
+    "sessions": 0,
+    "share": 0.0,
+    "ann_return": null,
+    "ann_vol": null,
+    "sharpe": null,
+    "exposure_mean": null
+   }
+  },
+  "eur_net": {
+   "bull": {
+    "sessions": 2306,
+    "share": 0.653998865570051,
+    "ann_return": 0.2006772758915119,
+    "ann_vol": 0.34176157515336825,
+    "sharpe": 0.5871850157568369,
+    "exposure_mean": 1.0
+   },
+   "bear": {
+    "sessions": 1220,
+    "share": 0.34600113442994895,
+    "ann_return": 0.3200690496381822,
+    "ann_vol": 0.4462176639360836,
+    "sharpe": 0.7172935441749547,
+    "exposure_mean": 1.0
+   },
+   "undefined": {
+    "sessions": 0,
+    "share": 0.0,
+    "ann_return": null,
+    "ann_vol": null,
+    "sharpe": null,
+    "exposure_mean": null
+   }
+  }
+ },
+ "benchmark_deltas": {
+  "bh": {
+   "usd_gross": {
+    "cagr": -0.000710389757073715,
+    "sharpe": -0.0015868922314126177,
+    "max_drawdown": -0.0007099619849649796,
+    "twr_total": -0.09563528824775602
+   },
+   "eur_gross": {
+    "cagr": -0.0007235672001113524,
+    "sharpe": -0.0015923492407270423,
+    "max_drawdown": -0.0008907448850170585,
+    "twr_total": -0.12369037961877538
+   },
+   "usd_net": {
+    "cagr": 0.0003376878134635497,
+    "sharpe": 0.000820771244366858,
+    "max_drawdown": -0.0007099619849649796,
+    "twr_total": 0.033142517249796555
+   },
+   "eur_net": {
+    "cagr": 0.00034395178599622156,
+    "sharpe": 0.0008903662268460177,
+    "max_drawdown": -0.0008907448850170585,
+    "twr_total": 0.04286504087819942
+   }
+  },
+  "bh_dca": {
+   "usd_gross": {
+    "cagr": 0.0,
+    "sharpe": 0.0,
+    "max_drawdown": 0.0,
+    "twr_total": 0.0
+   },
+   "eur_gross": {
+    "cagr": 0.0,
+    "sharpe": 0.0,
+    "max_drawdown": 0.0,
+    "twr_total": 0.0
+   },
+   "usd_net": {
+    "cagr": 0.0,
+    "sharpe": 0.0,
+    "max_drawdown": 0.0,
+    "twr_total": 0.0
+   },
+   "eur_net": {
+    "cagr": 0.0,
+    "sharpe": 0.0,
+    "max_drawdown": 0.0,
+    "twr_total": 0.0
+   }
+  },
+  "ma200_long_cash": {
+   "usd_gross": {
+    "cagr": 0.05765940553689952,
+    "sharpe": 0.051088470829785515,
+    "max_drawdown": -0.05500575236553262,
+    "twr_total": 5.712185045424862
+   },
+   "eur_gross": {
+    "cagr": 0.05872896421848939,
+    "sharpe": 0.047204797484440286,
+    "max_drawdown": 0.0002908603648361652,
+    "twr_total": 7.387883172268811
+   },
+   "usd_net": {
+    "cagr": 0.062215299346052744,
+    "sharpe": 0.10083875221895866,
+    "max_drawdown": -0.05500575236553262,
+    "twr_total": 4.384348227674543
+   },
+   "eur_net": {
+    "cagr": 0.06336936801748116,
+    "sharpe": 0.09245739190370983,
+    "max_drawdown": 0.0002908603648361652,
+    "twr_total": 5.6705187655898746
+   }
+  }
+ },
+ "opportunities": {
+  "entries_total": 168,
+  "entries_per_year_mean": 12.003521126760564,
+  "entries_by_year": {
+   "2008": 12,
+   "2009": 12,
+   "2010": 12,
+   "2011": 12,
+   "2012": 12,
+   "2013": 12,
+   "2014": 12,
+   "2015": 12,
+   "2016": 12,
+   "2017": 12,
+   "2018": 12,
+   "2019": 12,
+   "2020": 12,
+   "2021": 12
+  },
+  "entries_by_regime": {
+   "bull": 110,
+   "bear": 58,
+   "undefined": 0
+  },
+  "entries_by_year_regime": {
+   "2008": {
+    "bull": 4,
+    "bear": 8,
+    "undefined": 0
+   },
+   "2009": {
+    "bull": 5,
+    "bear": 7,
+    "undefined": 0
+   },
+   "2010": {
+    "bull": 4,
+    "bear": 8,
+    "undefined": 0
+   },
+   "2011": {
+    "bull": 6,
+    "bear": 6,
+    "undefined": 0
+   },
+   "2012": {
+    "bull": 5,
+    "bear": 7,
+    "undefined": 0
+   },
+   "2013": {
+    "bull": 12,
+    "bear": 0,
+    "undefined": 0
+   },
+   "2014": {
+    "bull": 12,
+    "bear": 0,
+    "undefined": 0
+   },
+   "2015": {
+    "bull": 4,
+    "bear": 8,
+    "undefined": 0
+   },
+   "2016": {
+    "bull": 11,
+    "bear": 1,
+    "undefined": 0
+   },
+   "2017": {
+    "bull": 12,
+    "bear": 0,
+    "undefined": 0
+   },
+   "2018": {
+    "bull": 4,
+    "bear": 8,
+    "undefined": 0
+   },
+   "2019": {
+    "bull": 9,
+    "bear": 3,
+    "undefined": 0
+   },
+   "2020": {
+    "bull": 10,
+    "bear": 2,
+    "undefined": 0
+   },
+   "2021": {
+    "bull": 12,
+    "bear": 0,
+    "undefined": 0
+   }
+  },
+  "threshold": null,
+  "eligible": null
+ }
+}

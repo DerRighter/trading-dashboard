@@ -1,0 +1,62 @@
+{
+ "run_id": "20261125T141620Z_bh_ASML_2b98136d",
+ "schema_version": 2,
+ "strategy_id": "bh",
+ "strategy_kind": "benchmark",
+ "params": {
+  "mode": "long_cash"
+ },
+ "mode": "long_cash",
+ "symbol": "ASML",
+ "universe": {
+  "id": "ai-semis@v1",
+  "name": "ai-semis",
+  "version": 1,
+  "tax_regime": "cto"
+ },
+ "regime": {
+  "id": "ma200",
+  "version": 2,
+  "regime_version": "ma200-v2-324f48d33452"
+ },
+ "period": {
+  "start": "2008-01-01",
+  "end": "2021-12-31",
+  "first_session": "2008-01-02",
+  "last_session": "2021-12-31"
+ },
+ "split": "train",
+ "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
+ "git_dirty": false,
+ "data_hash": "ca914c1049c24b0c13ed2336bed0a972704c39b017536a94c01a7864afc6e44e",
+ "origin": "local",
+ "sweep_id": null,
+ "created_at": "2026-11-25T14:16:20.334502+00:00",
+ "duration_s": 0.453,
+ "currency": {
+  "account": "USD",
+  "investor": "EUR",
+  "fx_symbol": "EURUSD",
+  "rule": "EUR = USD / EURUSD à chaque date"
+ },
+ "costs": {
+  "commission_bps": 1.0,
+  "commission_min_usd": 1.0,
+  "slippage_bps": 2.0
+ },
+ "tax": {
+  "regime": "cto",
+  "mode": "terminal",
+  "rate": 0.314,
+  "loss_carryforward_years": 10,
+  "pea_social_rate": 0.186,
+  "pea_exemption_years": 5,
+  "label": "estimation pour comparaison, pas un calcul fiscal"
+ },
+ "equity_frequency": "daily",
+ "engine": {
+  "execution": "signal à la clôture de J, exécution à l'ouverture de J+1",
+  "initial_eur": 10000.0,
+  "research_config_version": 1
+ }
+}
