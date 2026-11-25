@@ -27,8 +27,12 @@ function initial(): Omit<Controls, "set"> {
 
 export function ControlsProvider({ children }: { children: ReactNode }) {
   const [state, setState] = useState(initial);
-  useEffect(() => {
+  // Posé pendant le rendu (idempotent) : les effets des graphiques enfants
+  // s'exécutent AVANT ceux du parent et lisent les couleurs du thème.
+  if (document.documentElement.dataset.theme !== state.theme) {
     document.documentElement.dataset.theme = state.theme;
+  }
+  useEffect(() => {
     try { localStorage.setItem(KEY, JSON.stringify(state)); } catch { /* stockage indisponible */ }
   }, [state]);
   const value = useMemo<Controls>(() => ({ ...state, set: (p) => setState((s) => ({ ...s, ...p })) }), [state]);
