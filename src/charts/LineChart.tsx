@@ -41,7 +41,11 @@ export function LineChart({ lines, zones, height = 320, format = "index", logSca
       grid: { vertLines: { color: c.grid }, horzLines: { color: c.grid } },
       crosshair: { mode: CrosshairMode.Normal },
       rightPriceScale: { mode: logScale ? 1 : 0, borderColor: c.grid },
-      timeScale: { borderColor: c.grid },
+      // ~3 500 séances : sans minBarSpacing bas, fitContent ne montre pas tout l'historique
+      timeScale: { borderColor: c.grid, minBarSpacing: 0.01 },
+      // la molette fait défiler la page, pas le graphique (glisser pour se déplacer)
+      handleScroll: { mouseWheel: false, pressedMouseMove: true, horzTouchDrag: true, vertTouchDrag: false },
+      handleScale: { mouseWheel: false, pinch: true, axisPressedMouseMove: true },
       localization: {
         locale: "fr-FR",
         priceFormatter: (p: number) =>
@@ -77,12 +81,14 @@ export function LineChart({ lines, zones, height = 320, format = "index", logSca
       }
     });
     chart.timeScale().fitContent();
+    const raf = requestAnimationFrame(() => chart.timeScale().fitContent());   // après autoSize
 
     const click = (p: MouseEventParams<Time>) => {
       if (onClickTime && typeof p.time === "number") onClickTime(p.time);
     };
     chart.subscribeClick(click);
     return () => {
+      cancelAnimationFrame(raf);
       chart.unsubscribeClick(click);
       chart.remove();
     };
