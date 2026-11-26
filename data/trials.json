@@ -1,19 +1,20 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-26T14:38:38+00:00",
+ "generated_at": "2026-11-26T15:36:09+00:00",
  "source": {
   "repo": "trading-bot",
-  "sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b"
+  "sha": "472388f62115c62c69f0ddaf27732b934dd4a0fb"
  },
  "basis": "journal d'essais complet de trading-bot (runs non exportés inclus) ; contrôles (origin=check) comptés à part",
  "trials": {
-  "bh": 30,
+  "bh": 32,
   "bh_dca": 30,
   "ma200_long_cash": 30,
   "donchian_breakout": 120,
   "rsi2_pullback": 60,
-  "asym_reentry": 80,
-  "core_tactical": 40
+  "asym_reentry": 81,
+  "core_tactical": 40,
+  "ew_annual": 1
  },
  "checks": {
   "bh": 1
@@ -31,11 +32,14 @@
    "rsi2_pullback": 6,
    "asym_reentry": 80,
    "core_tactical": 40,
-   "bh": 10,
+   "bh": 12,
    "bh_dca": 10,
-   "ma200_long_cash": 10
+   "ma200_long_cash": 10,
+   "ew_annual": 1
   },
-  "control": {},
+  "control": {
+   "asym_reentry": 1
+  },
   "validation": {}
  }
 }

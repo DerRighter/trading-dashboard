@@ -1,10 +1,10 @@
 {
- "schema_version": 2,
- "results_schema_version": 2,
- "generated_at": "2026-11-26T14:38:38+00:00",
+ "schema_version": 3,
+ "results_schema_version": 3,
+ "generated_at": "2026-11-26T15:36:09+00:00",
  "source": {
   "repo": "trading-bot",
-  "sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b"
+  "sha": "472388f62115c62c69f0ddaf27732b934dd4a0fb"
  },
  "runs": [
   {
@@ -15,6 +15,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -65,6 +70,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -113,6 +123,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -163,6 +178,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -213,6 +233,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -261,6 +286,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -311,6 +341,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -361,6 +396,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -409,6 +449,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -459,6 +504,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -509,6 +559,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -557,6 +612,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -607,6 +667,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -657,6 +722,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -705,6 +775,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -755,6 +830,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -805,6 +885,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -853,6 +938,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -903,6 +993,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -953,6 +1048,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -1001,6 +1101,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -1051,6 +1156,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -1101,6 +1211,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -1149,6 +1264,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -1199,6 +1319,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -1249,6 +1374,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -1297,6 +1427,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -1347,6 +1482,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -1397,6 +1537,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -1445,6 +1590,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "local",
@@ -1495,6 +1645,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -1548,6 +1703,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -1601,6 +1761,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -1654,6 +1819,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -1707,6 +1877,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -1760,6 +1935,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -1813,6 +1993,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -1866,6 +2051,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -1919,6 +2109,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -1972,6 +2167,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -2025,6 +2225,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -2078,6 +2283,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -2131,6 +2341,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -2184,6 +2399,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -2237,6 +2457,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -2290,6 +2515,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -2343,6 +2573,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -2396,6 +2631,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -2449,6 +2689,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -2502,6 +2747,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -2555,6 +2805,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -2608,6 +2863,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -2661,6 +2921,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -2714,6 +2979,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -2767,6 +3037,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -2820,6 +3095,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -2873,6 +3153,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -2926,6 +3211,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -2979,6 +3269,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -3032,6 +3327,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -3085,6 +3385,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -3138,6 +3443,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -3191,6 +3501,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -3244,6 +3559,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -3297,6 +3617,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -3350,6 +3675,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -3403,6 +3733,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -3456,6 +3791,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -3509,6 +3849,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -3562,6 +3907,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -3615,6 +3965,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -3668,6 +4023,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -3721,6 +4081,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -3774,6 +4139,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -3827,6 +4197,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -3880,6 +4255,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -3933,6 +4313,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -3986,6 +4371,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -4039,6 +4429,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -4092,6 +4487,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -4145,6 +4545,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -4198,6 +4603,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -4251,6 +4661,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -4304,6 +4719,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -4357,6 +4777,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -4410,6 +4835,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -4463,6 +4893,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -4516,6 +4951,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -4569,6 +5009,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -4622,6 +5067,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -4675,6 +5125,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -4728,6 +5183,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -4781,6 +5241,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -4834,6 +5299,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -4887,6 +5357,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -4940,6 +5415,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -4993,6 +5473,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -5046,6 +5531,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -5099,6 +5589,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -5152,6 +5647,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -5205,6 +5705,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -5258,6 +5763,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -5311,6 +5821,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -5364,6 +5879,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -5417,6 +5937,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -5470,6 +5995,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -5523,6 +6053,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -5576,6 +6111,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -5629,6 +6169,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -5682,6 +6227,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -5735,6 +6285,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -5788,6 +6343,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -5841,6 +6401,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -5894,6 +6459,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -5947,6 +6517,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -6000,6 +6575,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -6053,6 +6633,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -6106,6 +6691,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -6159,6 +6749,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -6212,6 +6807,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -6265,6 +6865,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -6318,6 +6923,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -6371,6 +6981,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -6424,6 +7039,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -6477,6 +7097,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -6530,6 +7155,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -6583,6 +7213,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -6636,6 +7271,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -6689,6 +7329,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -6742,6 +7387,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -6795,6 +7445,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -6848,6 +7503,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -6901,6 +7561,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -6954,6 +7619,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -7007,6 +7677,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -7060,6 +7735,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -7113,6 +7793,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -7166,6 +7851,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -7219,6 +7909,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -7271,6 +7966,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -7323,6 +8023,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -7375,6 +8080,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -7427,6 +8137,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -7479,6 +8194,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -7531,6 +8251,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -7583,6 +8308,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -7635,6 +8365,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -7687,6 +8422,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -7739,6 +8479,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -7791,6 +8536,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -7843,6 +8593,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -7895,6 +8650,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -7947,6 +8707,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -7999,6 +8764,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -8051,6 +8821,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -8103,6 +8878,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -8155,6 +8935,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -8207,6 +8992,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -8259,6 +9049,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -8311,6 +9106,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -8363,6 +9163,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -8415,6 +9220,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -8467,6 +9277,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -8519,6 +9334,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -8571,6 +9391,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -8623,6 +9448,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -8675,6 +9505,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -8727,6 +9562,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -8779,6 +9619,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -8831,6 +9676,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -8883,6 +9733,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -8935,6 +9790,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -8987,6 +9847,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -9039,6 +9904,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -9091,6 +9961,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -9143,6 +10018,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -9195,6 +10075,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -9247,6 +10132,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -9299,6 +10189,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -9351,6 +10246,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -9403,6 +10303,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -9455,6 +10360,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -9507,6 +10417,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -9559,6 +10474,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -9611,6 +10531,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -9663,6 +10588,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -9715,6 +10645,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -9767,6 +10702,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -9819,6 +10759,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -9871,6 +10816,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -9923,6 +10873,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -9975,6 +10930,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "train",
    "origin": "sweep",
@@ -10027,6 +10987,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -10080,6 +11045,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -10133,6 +11103,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -10186,6 +11161,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -10239,6 +11219,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -10292,6 +11277,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -10345,6 +11335,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -10398,6 +11393,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -10451,6 +11451,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -10504,6 +11509,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -10557,6 +11567,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -10610,6 +11625,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -10663,6 +11683,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -10715,6 +11740,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -10767,6 +11797,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -10819,6 +11854,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -10871,6 +11911,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -10923,6 +11968,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -10975,6 +12025,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -11028,6 +12083,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -11081,6 +12141,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -11134,6 +12199,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -11187,6 +12257,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -11240,6 +12315,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -11293,6 +12373,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -11346,6 +12431,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -11399,6 +12489,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -11452,6 +12547,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -11505,6 +12605,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -11558,6 +12663,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -11611,6 +12721,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -11664,6 +12779,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -11717,6 +12837,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -11770,6 +12895,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -11823,6 +12953,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -11876,6 +13011,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -11929,6 +13069,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -11982,6 +13127,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -12035,6 +13185,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -12088,6 +13243,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -12141,6 +13301,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -12194,6 +13359,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -12247,6 +13417,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -12300,6 +13475,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -12353,6 +13533,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -12406,6 +13591,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -12459,6 +13649,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -12512,6 +13707,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -12565,6 +13765,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -12618,6 +13823,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -12671,6 +13881,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -12724,6 +13939,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -12777,6 +13997,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -12830,6 +14055,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -12883,6 +14113,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -12936,6 +14171,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -12989,6 +14229,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -13042,6 +14287,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -13095,6 +14345,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -13148,6 +14403,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -13201,6 +14461,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -13254,6 +14519,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -13307,6 +14577,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -13360,6 +14635,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -13413,6 +14693,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -13466,6 +14751,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -13519,6 +14809,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -13572,6 +14867,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -13625,6 +14925,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -13678,6 +14983,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -13731,6 +15041,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -13784,6 +15099,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -13837,6 +15157,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -13890,6 +15215,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -13943,6 +15273,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -13996,6 +15331,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -14049,6 +15389,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -14102,6 +15447,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -14155,6 +15505,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -14208,6 +15563,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -14261,6 +15621,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -14314,6 +15679,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -14367,6 +15737,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -14420,6 +15795,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -14473,6 +15853,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -14526,6 +15911,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -14579,6 +15969,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -14632,6 +16027,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -14685,6 +16085,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -14738,6 +16143,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -14791,6 +16201,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -14844,6 +16259,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -14897,6 +16317,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -14950,6 +16375,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -15003,6 +16433,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -15056,6 +16491,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -15109,6 +16549,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -15162,6 +16607,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -15215,6 +16665,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -15267,6 +16722,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -15319,6 +16779,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -15371,6 +16836,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -15423,6 +16893,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -15475,6 +16950,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -15527,6 +17007,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -15579,6 +17064,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -15631,6 +17121,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -15683,6 +17178,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -15735,6 +17235,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -15787,6 +17292,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -15839,6 +17349,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -15891,6 +17406,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -15943,6 +17463,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -15995,6 +17520,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -16047,6 +17577,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -16099,6 +17634,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -16151,6 +17691,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -16203,6 +17748,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -16255,6 +17805,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -16307,6 +17862,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -16359,6 +17919,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -16411,6 +17976,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -16463,6 +18033,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -16515,6 +18090,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -16567,6 +18147,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -16619,6 +18204,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -16671,6 +18261,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -16723,6 +18318,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -16775,6 +18375,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -16827,6 +18432,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -16879,6 +18489,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -16931,6 +18546,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -16983,6 +18603,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -17035,6 +18660,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -17087,6 +18717,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -17139,6 +18774,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -17191,6 +18831,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -17243,6 +18888,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "sweep",
@@ -17295,6 +18945,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -17345,6 +19000,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -17393,6 +19053,11 @@
    "mode": "long_cash",
    "symbol": "QQQ",
    "universe_id": "qqq@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -17443,6 +19108,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -17493,6 +19163,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -17541,6 +19216,11 @@
    "mode": "long_cash",
    "symbol": "GOOGL",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "GOOGL"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -17591,6 +19271,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -17641,6 +19326,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -17689,6 +19379,11 @@
    "mode": "long_cash",
    "symbol": "ASML",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "ASML"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -17739,6 +19434,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -17789,6 +19489,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -17837,6 +19542,11 @@
    "mode": "long_cash",
    "symbol": "QCOM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "QCOM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -17887,6 +19597,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -17937,6 +19652,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -17985,6 +19705,11 @@
    "mode": "long_cash",
    "symbol": "NVDA",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -18035,6 +19760,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -18085,6 +19815,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -18133,6 +19868,11 @@
    "mode": "long_cash",
    "symbol": "LRCX",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "LRCX"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -18183,6 +19923,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -18233,6 +19978,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -18281,6 +20031,11 @@
    "mode": "long_cash",
    "symbol": "AMAT",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "AMAT"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -18331,6 +20086,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -18381,6 +20141,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -18429,6 +20194,11 @@
    "mode": "long_cash",
    "symbol": "KLAC",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "KLAC"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -18479,6 +20249,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -18529,6 +20304,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -18577,6 +20357,11 @@
    "mode": "long_cash",
    "symbol": "COHR",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "COHR"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -18627,6 +20412,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -18677,6 +20467,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -18725,6 +20520,11 @@
    "mode": "long_cash",
    "symbol": "TSEM",
    "universe_id": "ai-semis@v1",
+   "schema_version": 2,
+   "symbols": [
+    "TSEM"
+   ],
+   "portfolio": false,
    "tax_regime": "cto",
    "split": "exploration",
    "origin": "local",
@@ -18765,6 +20565,182 @@
     "manifest.json": "08766472de3d6d50d443e5d1767d8757d975fa69e6d2197ce03709f8a1c718dd",
     "metrics.json": "7b7b3c1918cba6af13dbbd1bdc23dde3c6feedd4066198d5276882fe9576f80d",
     "trades.parquet": "c3f4cad5ab926049f9172f66d74e55a60dfdfba2dcbf8cdf4a6dc2036c708a43"
+   }
+  },
+  {
+   "run_id": "20261126T153512Z_bh_SPY_ecdf97c2",
+   "path": "runs/20261126T153512Z_bh_SPY_ecdf97c2",
+   "strategy_id": "bh",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "SPY",
+   "universe_id": "spy@v1",
+   "schema_version": 3,
+   "symbols": [
+    "SPY"
+   ],
+   "portfolio": false,
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T15:35:12.933661+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "e12e730312969b331f182a807af2ebd4f53a91c9",
+   "data_hash": "a67c78e46425f1f3f2a74b0eb50fef025969494b7b0cface8e7b80bca36c8b39",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.07039749153729669,
+     "max_drawdown": -0.5241078141537152
+    },
+    "eur_gross": {
+     "cagr": 0.11103024966581043,
+     "max_drawdown": -0.444751570500324
+    },
+    "eur_net": {
+     "cagr": 0.08497511629026167,
+     "max_drawdown": -0.444751570500324
+    },
+    "usd_net": {
+     "cagr": 0.04529525024796577,
+     "max_drawdown": -0.5241078141537152
+    }
+   },
+   "trades_per_year": 0.11118721461187216,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "112c1939e4384e869436b90246d5ca1f98ead1c733df857a99d51f5feb7b5175",
+    "manifest.json": "6ce83434a181d5dab6615a56d77f03fd678fc272cb8a79bb185877bb4a06cc4d",
+    "metrics.json": "4b11276bb6f2dc061e42d4532f303b80b50c3a7369cbf03455755ccfb8855605",
+    "trades.parquet": "1ec9faebbb92f8b8efe197397813dfe9989314d55b9687d68b1d5f706ab1f5b6",
+    "weights.parquet": "3193cb8332624b3851e88f6d7ff89d4961df5aa7eda70430cd4c50af8f23fa14"
+   }
+  },
+  {
+   "run_id": "20261126T153514Z_bh_QQQ_6df8e739",
+   "path": "runs/20261126T153514Z_bh_QQQ_6df8e739",
+   "strategy_id": "bh",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "QQQ",
+   "universe_id": "qqq@v1",
+   "schema_version": 3,
+   "symbols": [
+    "QQQ"
+   ],
+   "portfolio": false,
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T15:35:14.432890+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "e12e730312969b331f182a807af2ebd4f53a91c9",
+   "data_hash": "e1b08ec10a7fb0819bbaa915df003b590ff5c7055972dbf19d4d6a44eeb917e3",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.10803805240811948,
+     "max_drawdown": -0.50060375532524
+    },
+    "eur_gross": {
+     "cagr": 0.15009966273198816,
+     "max_drawdown": -0.412298269852464
+    },
+    "eur_net": {
+     "cagr": 0.11800511747784737,
+     "max_drawdown": -0.412298269852464
+    },
+    "usd_net": {
+     "cagr": 0.07711727348027653,
+     "max_drawdown": -0.50060375532524
+    }
+   },
+   "trades_per_year": 0.11118721461187216,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "0597bd72909b78156b54da3606d1aaed2a6ea29896241fb0abf70c4ff71cb94e",
+    "manifest.json": "b8ba3c951c6a08403bbf71585cea810e84f7354824b7a3db9410c1fd0f301c68",
+    "metrics.json": "eb1e04352ec05a1b829b70a92828efafbf12ae691642ab832afd583dcb0590bd",
+    "trades.parquet": "772adb0abbe8454d91c717fee60680c2829a9158b448bc92112be61d6510e608",
+    "weights.parquet": "fd3d7458ad006950e86da8cd41d28f81ec39af2a2b305a69753f07ec316ed661"
+   }
+  },
+  {
+   "run_id": "20261126T153535Z_ew_annual_SECTORS9_cafd662e",
+   "path": "runs/20261126T153535Z_ew_annual_SECTORS9_cafd662e",
+   "strategy_id": "ew_annual",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "SECTORS9",
+   "universe_id": "sectors9@v1",
+   "schema_version": 3,
+   "symbols": [
+    "XLB",
+    "XLE",
+    "XLF",
+    "XLI",
+    "XLK",
+    "XLP",
+    "XLU",
+    "XLV",
+    "XLY"
+   ],
+   "portfolio": true,
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T15:35:35.019481+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "767a60192e52f90861b572a41a6cc81203f0fb72",
+   "data_hash": "4eda5e15f3b4ea7fdbb1ca759dc5f6659759aa1af8082d2ed88a092aebc73a2b",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.07222669653097369,
+     "max_drawdown": -0.5142396159944682
+    },
+    "eur_gross": {
+     "cagr": 0.1129288920831224,
+     "max_drawdown": -0.4322976142600361
+    },
+    "eur_net": {
+     "cagr": 0.0863277376754834,
+     "max_drawdown": -0.4322976142600361
+    },
+    "usd_net": {
+     "cagr": 0.046598403369290775,
+     "max_drawdown": -0.5142396159944682
+    }
+   },
+   "trades_per_year": 0.0,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "a5f817001368f9f925c787576a9c34fd43ac1d781796a6766fe0b739867ef4c8",
+    "manifest.json": "8e257083adb70247338d589e8f1b73037d50e8c6faa250cd6f7f490fb0a2dab2",
+    "metrics.json": "69d81f3cebcd5bfb81a6ea138f90b39120b969e9fc1993e48e604c7397d511ec",
+    "trades.parquet": "1b91322cf8eb2b7ae3d13e5642dd94090de20a556026d69f61d07b00c57dc42f",
+    "weights.parquet": "67e6abe00b9b68c5ebac09f9ab91e03e5d316ef30af18e23be74612f31be552d"
    }
   }
  ]
