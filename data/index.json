@@ -1,7 +1,7 @@
 {
  "schema_version": 2,
  "results_schema_version": 2,
- "generated_at": "2026-11-26T14:31:37+00:00",
+ "generated_at": "2026-11-26T14:38:38+00:00",
  "source": {
   "repo": "trading-bot",
   "sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b"
@@ -17285,6 +17285,1486 @@
     "manifest.json": "9c50e8c3922a79d9197b98d952667806778f57370aed4a13940c29fa89c98378",
     "metrics.json": "af01e5a0d79bc1372cd04f724dd1ef77fd5fc95e897f3843ae69a3438ddda36e",
     "trades.parquet": "632c55188169e76823c22f00eacaaaf3380131721c8a5c6243cdc1abf9cdb8b2"
+   }
+  },
+  {
+   "run_id": "20261126T143734Z_bh_QQQ_c926888a",
+   "path": "runs/20261126T143734Z_bh_QQQ_c926888a",
+   "strategy_id": "bh",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "QQQ",
+   "universe_id": "qqq@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:37:34.301048+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "e1b08ec10a7fb0819bbaa915df003b590ff5c7055972dbf19d4d6a44eeb917e3",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.10803805240811948,
+     "max_drawdown": -0.50060375532524
+    },
+    "eur_gross": {
+     "cagr": 0.15009966273198816,
+     "max_drawdown": -0.412298269852464
+    },
+    "eur_net": {
+     "cagr": 0.11800511747784737,
+     "max_drawdown": -0.412298269852464
+    },
+    "usd_net": {
+     "cagr": 0.07711727348027653,
+     "max_drawdown": -0.50060375532524
+    }
+   },
+   "trades_per_year": 0.11118721461187216,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "0597bd72909b78156b54da3606d1aaed2a6ea29896241fb0abf70c4ff71cb94e",
+    "manifest.json": "b93020a748336ac0e6a42a608288ec9eb113099e86f5f29614f055862d5c9c63",
+    "metrics.json": "a0498eb0ac5aab668ddb48ce016a34bdf85c497b50cc868366d705b9f82d39c0",
+    "trades.parquet": "772adb0abbe8454d91c717fee60680c2829a9158b448bc92112be61d6510e608"
+   }
+  },
+  {
+   "run_id": "20261126T143735Z_bh_dca_QQQ_44759ad0",
+   "path": "runs/20261126T143735Z_bh_dca_QQQ_44759ad0",
+   "strategy_id": "bh_dca",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "QQQ",
+   "universe_id": "qqq@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash",
+    "monthly_eur": 500.0
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:37:35.949045+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "e1b08ec10a7fb0819bbaa915df003b590ff5c7055972dbf19d4d6a44eeb917e3",
+   "has_flows": true,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.10710345947354805,
+     "max_drawdown": -0.5028522698901099
+    },
+    "eur_gross": {
+     "cagr": 0.1491295922398188,
+     "max_drawdown": -0.41533111200344375
+    },
+    "eur_net": {
+     "cagr": 0.12160150157237548,
+     "max_drawdown": -0.41533111200344375
+    },
+    "usd_net": null
+   },
+   "trades_per_year": 12.008219178082193,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "13bc256a03f4745b3b223e77c66e9316db6d7b11e323fb0243d349c68f0dfb64",
+    "manifest.json": "b40b2bc1f09fcc0d8e8ca57855423447c5dfcaa40b2838a096bfbf92cb7df2fd",
+    "metrics.json": "97dd551eac4d254c448e71aaa9ea3c994aee9bbad512a1e83f2425e9795eb8f5",
+    "trades.parquet": "a65d511d3e461e4eaff17280b1f8f86833eed179d1d1f0fdb06926ad2614f64f"
+   }
+  },
+  {
+   "run_id": "20261126T143737Z_ma200_long_cash_QQQ_fddc5a43",
+   "path": "runs/20261126T143737Z_ma200_long_cash_QQQ_fddc5a43",
+   "strategy_id": "ma200_long_cash",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "QQQ",
+   "universe_id": "qqq@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:37:37.515794+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "e1b08ec10a7fb0819bbaa915df003b590ff5c7055972dbf19d4d6a44eeb917e3",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.05041712577190216,
+     "max_drawdown": -0.26183522562274864
+    },
+    "eur_gross": {
+     "cagr": 0.09029142045493521,
+     "max_drawdown": -0.2822755284816808
+    },
+    "eur_net": {
+     "cagr": 0.06608255527115614,
+     "max_drawdown": -0.3624036548755598
+    },
+    "usd_net": {
+     "cagr": 0.02709363068841819,
+     "max_drawdown": -0.34424534634175374
+    }
+   },
+   "trades_per_year": 1.55662100456621,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "76cfd34d6e39c70d7eede3bd7734718a3902416ee4b53f6ea20b1df9d38e547c",
+    "manifest.json": "e3232cdc2533bd6d72e2959764bfc75ff4263119908957dc4157a56920f432ee",
+    "metrics.json": "bec1789c8f8bdfbdf660b527b10b47fc3f878b23f8246c0c28d8ddff1b3dabe1",
+    "trades.parquet": "5f12fffc731b2bd2ea72b9618aa3e87ae0fa571779c9efcc74c2d5ead88cdc24"
+   }
+  },
+  {
+   "run_id": "20261126T143738Z_bh_GOOGL_d7451624",
+   "path": "runs/20261126T143738Z_bh_GOOGL_d7451624",
+   "strategy_id": "bh",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "GOOGL",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:37:38.973553+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "d42f8e37a4f14acec454ba863b97614088c5b6fef5aa4df34c5f677275f433c6",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.09617860710268444,
+     "max_drawdown": -0.6287493337308319
+    },
+    "eur_gross": {
+     "cagr": 0.1377900276826094,
+     "max_drawdown": -0.5782867564359602
+    },
+    "eur_net": {
+     "cagr": 0.10747047691944478,
+     "max_drawdown": -0.5782867564359602
+    },
+    "usd_net": {
+     "cagr": 0.06696790731193514,
+     "max_drawdown": -0.6287493337308319
+    }
+   },
+   "trades_per_year": 0.11118721461187216,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "70ce74d7e0d3a7e0876a09a59a40fb19db944f3c90e3fc78a2f20e97b1433e22",
+    "manifest.json": "655f3d3177ec78a358987650f06499e8220d2e335143304494ff9d7059e23fb7",
+    "metrics.json": "cbe3a75e9d7b0d674756e0db8aa837dcd7db5dd722fe3209a949c27afde79250",
+    "trades.parquet": "90130081b68fe3b819fd0771ca9dd96cd834b8325e1650c641b9a514449e17e8"
+   }
+  },
+  {
+   "run_id": "20261126T143740Z_bh_dca_GOOGL_0d875b95",
+   "path": "runs/20261126T143740Z_bh_dca_GOOGL_0d875b95",
+   "strategy_id": "bh_dca",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "GOOGL",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash",
+    "monthly_eur": 500.0
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:37:40.478451+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "d42f8e37a4f14acec454ba863b97614088c5b6fef5aa4df34c5f677275f433c6",
+   "has_flows": true,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.09522814060817386,
+     "max_drawdown": -0.6304874112841791
+    },
+    "eur_gross": {
+     "cagr": 0.1368034810632046,
+     "max_drawdown": -0.5802610837279589
+    },
+    "eur_net": {
+     "cagr": 0.10754291581197939,
+     "max_drawdown": -0.5802610837279589
+    },
+    "usd_net": null
+   },
+   "trades_per_year": 12.008219178082193,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "ba7e6ea03c34012849872b5a3eb0ce02406483a02b7fe47692f716a21dcd3da7",
+    "manifest.json": "702e94892300a94fa3dfa2b9a15b324c9eb520bb689e138fd3f87e2d8c78fcc7",
+    "metrics.json": "80c60189de9becbfc7e92dcacfbb859b60ed9ba124a51165087c45ab09e055e2",
+    "trades.parquet": "2471ae03e981db0e0e9e6ef586ae79f9d5446f7af7e5d10be305124662ca4205"
+   }
+  },
+  {
+   "run_id": "20261126T143741Z_ma200_long_cash_GOOGL_c4b4515b",
+   "path": "runs/20261126T143741Z_ma200_long_cash_GOOGL_c4b4515b",
+   "strategy_id": "ma200_long_cash",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "GOOGL",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:37:41.974578+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "d42f8e37a4f14acec454ba863b97614088c5b6fef5aa4df34c5f677275f433c6",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.06405320600175379,
+     "max_drawdown": -0.31343085314627517
+    },
+    "eur_gross": {
+     "cagr": 0.10444513226948438,
+     "max_drawdown": -0.35450943988470207
+    },
+    "eur_net": {
+     "cagr": 0.08398738002891015,
+     "max_drawdown": -0.35450943988470207
+    },
+    "usd_net": {
+     "cagr": 0.044343637619264964,
+     "max_drawdown": -0.31343085314627517
+    }
+   },
+   "trades_per_year": 1.334246575342466,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "edba8ec576d0621a7a7c54672a26300850dcfb1e3be51506aa7cb78c213fee59",
+    "manifest.json": "50f342ae152b5754721f521ffc5ab2970cdd95d4d101f21cedfc07c51340a45e",
+    "metrics.json": "a914a89a37f938f211d8490ed2cc97052685b1c4bb5e5eb622db501d16aebe4c",
+    "trades.parquet": "474f24a54fc43a83a3f58284c1d919f30a5fea678f27d046f19470566ec4d257"
+   }
+  },
+  {
+   "run_id": "20261126T143743Z_bh_ASML_2a4d0abe",
+   "path": "runs/20261126T143743Z_bh_ASML_2a4d0abe",
+   "strategy_id": "bh",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "ASML",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:37:43.448466+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "4a1189c9079c6be2d1008343df941021496e0516653d6ea8ff4eb4afda9227be",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.1946758640305024,
+     "max_drawdown": -0.5906128776965834
+    },
+    "eur_gross": {
+     "cagr": 0.24002628367265721,
+     "max_drawdown": -0.5162670191011298
+    },
+    "eur_net": {
+     "cagr": 0.19763285424428756,
+     "max_drawdown": -0.5162670191011298
+    },
+    "usd_net": {
+     "cagr": 0.1538328532020936,
+     "max_drawdown": -0.5906128776965834
+    }
+   },
+   "trades_per_year": 0.11118721461187216,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "011537889ff8b87485b0cf25fbf510dfb0d77691c642120ac029478469ce162d",
+    "manifest.json": "efd6b52136f817a4a1f51434f373d7f16387cb58ac2f2889e9742e58567c13a8",
+    "metrics.json": "46b7243c428601f6ea86e5d5f4c978200c99f862631180e10cb936a06510782d",
+    "trades.parquet": "c324d3a597295dfcb016ca4729da2f02679980a21ae542af3313b5ae2eba8e33"
+   }
+  },
+  {
+   "run_id": "20261126T143744Z_bh_dca_ASML_4535e4e3",
+   "path": "runs/20261126T143744Z_bh_dca_ASML_4535e4e3",
+   "strategy_id": "bh_dca",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "ASML",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash",
+    "monthly_eur": 500.0
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:37:44.915322+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "4a1189c9079c6be2d1008343df941021496e0516653d6ea8ff4eb4afda9227be",
+   "has_flows": true,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.1937187223332617,
+     "max_drawdown": -0.5925047352336628
+    },
+    "eur_gross": {
+     "cagr": 0.2390328084569,
+     "max_drawdown": -0.5185024433145209
+    },
+    "eur_net": {
+     "cagr": 0.2015442772553222,
+     "max_drawdown": -0.5185024433145209
+    },
+    "usd_net": null
+   },
+   "trades_per_year": 12.008219178082193,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "b0eea3b0c67b663be5a0b5ef9517328458f8108c7300eb815a0174dfea211b2f",
+    "manifest.json": "0a33741d2254afca6ef362b5a914740b3836d5c73ffe1e982c8464a6b5c25fa9",
+    "metrics.json": "28d5676b7edff54c06f0ea1360424d40c341b08696644ea34cffcfbbef79bd38",
+    "trades.parquet": "eb1551b9d445007f2db439e66c76fee4ffe25ccfcfda1f388bedcc04b4d409b3"
+   }
+  },
+  {
+   "run_id": "20261126T143746Z_ma200_long_cash_ASML_32477cd8",
+   "path": "runs/20261126T143746Z_ma200_long_cash_ASML_32477cd8",
+   "strategy_id": "ma200_long_cash",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "ASML",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:37:46.396711+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "4a1189c9079c6be2d1008343df941021496e0516653d6ea8ff4eb4afda9227be",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.1279314289911737,
+     "max_drawdown": -0.387349621539676
+    },
+    "eur_gross": {
+     "cagr": 0.17074820061301899,
+     "max_drawdown": -0.30912352100298857
+    },
+    "eur_net": {
+     "cagr": 0.1260584436400829,
+     "max_drawdown": -0.3983050664006913
+    },
+    "usd_net": {
+     "cagr": 0.08487607223951787,
+     "max_drawdown": -0.49542152192748423
+    }
+   },
+   "trades_per_year": 1.7789954337899545,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "5632e5ab67e05a13231100037e8e4a20b9083be8d04c248dfe77e4f49684c8f5",
+    "manifest.json": "b071a97755720598524468d7fd48025df35e806bb04ebe104279a7b415c7a9e4",
+    "metrics.json": "21f4b39841f305304f278d9ebb53555c407f6acb10980919a8c21d8c402827fe",
+    "trades.parquet": "a9f5306b84ddb423747b5167fa1b618aa86f06acbcedad84f2ca10db0da98691"
+   }
+  },
+  {
+   "run_id": "20261126T143747Z_bh_QCOM_c8346801",
+   "path": "runs/20261126T143747Z_bh_QCOM_c8346801",
+   "strategy_id": "bh",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "QCOM",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:37:47.855133+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "53c1aa89a0d0f32b166b4e9a40765b1d01c194ae9a2a32fbb68b6137c13b0db1",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.08296735106837883,
+     "max_drawdown": -0.48039757040309194
+    },
+    "eur_gross": {
+     "cagr": 0.1240772665763481,
+     "max_drawdown": -0.4205880784293684
+    },
+    "eur_net": {
+     "cagr": 0.09586934044184803,
+     "max_drawdown": -0.4205880784293684
+    },
+    "usd_net": {
+     "cagr": 0.055791049266586956,
+     "max_drawdown": -0.48039757040309194
+    }
+   },
+   "trades_per_year": 0.11118721461187216,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "04589dae5d2ab70e547ec537806e10739b9c9000791833f2ea56008578d7767c",
+    "manifest.json": "39bf33e179f82251823dfa4788fff5f9faa322b20339c4c4e0092a57d1d3eb63",
+    "metrics.json": "7ec2f1b294d3a8669093304665fdf6c9438ed1924852a56b9eba9f5128225f5e",
+    "trades.parquet": "f1ca9c48f46c71fda29baab3e9fbaed9864e2b91f27f548b8b1cab6d84c7c64d"
+   }
+  },
+  {
+   "run_id": "20261126T143749Z_bh_dca_QCOM_4f1b51ed",
+   "path": "runs/20261126T143749Z_bh_dca_QCOM_4f1b51ed",
+   "strategy_id": "bh_dca",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "QCOM",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash",
+    "monthly_eur": 500.0
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:37:49.357530+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "53c1aa89a0d0f32b166b4e9a40765b1d01c194ae9a2a32fbb68b6137c13b0db1",
+   "has_flows": true,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.08207284651836577,
+     "max_drawdown": -0.4806335747436016
+    },
+    "eur_gross": {
+     "cagr": 0.12314880624139124,
+     "max_drawdown": -0.4206823697866462
+    },
+    "eur_net": {
+     "cagr": 0.10540398552153585,
+     "max_drawdown": -0.4206823697866462
+    },
+    "usd_net": null
+   },
+   "trades_per_year": 12.008219178082193,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "b6ee56c3fa4df7f0a50fbbbe9837fa1f873a7d00ebbda78be6f005d628c36a85",
+    "manifest.json": "023a4c67fc26f10a6be333eba7081ba028c9597ad370fbd37c6bcfde66a4eac2",
+    "metrics.json": "97447693fa728b47610f8554094de188e33e510b8f9b42aa8b5b451ca14fcaf7",
+    "trades.parquet": "923b6f7ea2b7b646d0476e6a86172eb2547dd3b5643ce2416a51e6ec3aed49f0"
+   }
+  },
+  {
+   "run_id": "20261126T143750Z_ma200_long_cash_QCOM_9cfa30d1",
+   "path": "runs/20261126T143750Z_ma200_long_cash_QCOM_9cfa30d1",
+   "strategy_id": "ma200_long_cash",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "QCOM",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:37:50.894740+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "53c1aa89a0d0f32b166b4e9a40765b1d01c194ae9a2a32fbb68b6137c13b0db1",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.016434345454605426,
+     "max_drawdown": -0.31833636063794146
+    },
+    "eur_gross": {
+     "cagr": 0.0550186388959657,
+     "max_drawdown": -0.309661762679721
+    },
+    "eur_net": {
+     "cagr": 0.049150640734388684,
+     "max_drawdown": -0.309661762679721
+    },
+    "usd_net": {
+     "cagr": 0.010780952565989876,
+     "max_drawdown": -0.31833636063794146
+    }
+   },
+   "trades_per_year": 1.7789954337899545,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "3b12a9140013e12daf31a3418b39988b98e77bb6a39b5bb1f250086baf1ad5a4",
+    "manifest.json": "72878b8e4fd1696108e2f5d331709bcde08e02e29558521d866a29dbf78dc4f4",
+    "metrics.json": "2b9f736b20c2ab2f575fc3fbe9782816b784965292f6c08c80f21da4b7b1d9de",
+    "trades.parquet": "626f1b9ad7d87894ee6787953464d4550da26865dc285c61c0bfb60a09f3f69d"
+   }
+  },
+  {
+   "run_id": "20261126T143752Z_bh_NVDA_37975c09",
+   "path": "runs/20261126T143752Z_bh_NVDA_37975c09",
+   "strategy_id": "bh",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "NVDA",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:37:52.362124+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "6f868305f05346a25d5605c32a783f46a301d2b785fbac038e8efb2478e81d0b",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.172959095907816,
+     "max_drawdown": -0.8333833216691666
+    },
+    "eur_gross": {
+     "cagr": 0.21748513750962717,
+     "max_drawdown": -0.8031252619208985
+    },
+    "eur_net": {
+     "cagr": 0.17730964207865818,
+     "max_drawdown": -0.8031252619208985
+    },
+    "usd_net": {
+     "cagr": 0.13425290447557336,
+     "max_drawdown": -0.8333833216691666
+    }
+   },
+   "trades_per_year": 0.11118721461187216,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "a897068bdf38a12dcc5335931091971d86ab839f190ce9328deaa724056e7f1e",
+    "manifest.json": "0e75204373f75c8cc6914dc8fc8f551d416f82356cc76935e948d7f13f864054",
+    "metrics.json": "77d4cb204738018f7d29553bcf7cf6fc2d2893d26b0863b136b6199b33dd6466",
+    "trades.parquet": "6b19c61c2da82926c02218ce1ebcb9d58fb63648503bee7a20d4dece4abb6c92"
+   }
+  },
+  {
+   "run_id": "20261126T143753Z_bh_dca_NVDA_d4cc3964",
+   "path": "runs/20261126T143753Z_bh_dca_NVDA_d4cc3964",
+   "strategy_id": "bh_dca",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "NVDA",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash",
+    "monthly_eur": 500.0
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:37:53.858758+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "6f868305f05346a25d5605c32a783f46a301d2b785fbac038e8efb2478e81d0b",
+   "has_flows": true,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.17181953634255742,
+     "max_drawdown": -0.8342397885786883
+    },
+    "eur_gross": {
+     "cagr": 0.21630231976359493,
+     "max_drawdown": -0.8041372656421034
+    },
+    "eur_net": {
+     "cagr": 0.17178146911599113,
+     "max_drawdown": -0.8041372656421034
+    },
+    "usd_net": null
+   },
+   "trades_per_year": 12.008219178082193,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "3ef3a5762162e5a4c1f05025f6a4e4696a5e040d3465de264f1a25fba2eb1770",
+    "manifest.json": "65f18cf9c6a96b5f203bfef55880b7b87579b09510d277ad542541a5b2579c6e",
+    "metrics.json": "cd6931271af2991ab6cda8c9b5d125e18c0a6c9087d1acc983b8a4d4d15ad42c",
+    "trades.parquet": "4dacafa9a0bb98d7def402329bded1b77791c19dff9aed448fdcd49aecc517a6"
+   }
+  },
+  {
+   "run_id": "20261126T143755Z_ma200_long_cash_NVDA_92e04535",
+   "path": "runs/20261126T143755Z_ma200_long_cash_NVDA_92e04535",
+   "strategy_id": "ma200_long_cash",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "NVDA",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:37:55.385266+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "6f868305f05346a25d5605c32a783f46a301d2b785fbac038e8efb2478e81d0b",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.24843220155221002,
+     "max_drawdown": -0.5498750579475632
+    },
+    "eur_gross": {
+     "cagr": 0.29582323533786026,
+     "max_drawdown": -0.5516380668016769
+    },
+    "eur_net": {
+     "cagr": 0.2364727596063838,
+     "max_drawdown": -0.5723435862436298
+    },
+    "usd_net": {
+     "cagr": 0.19125229995760673,
+     "max_drawdown": -0.5706619937886392
+    }
+   },
+   "trades_per_year": 1.445433789954338,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "2ff91b9fca263c158c015cf8fd2ef677858435b547e404cbc604f83268c17b25",
+    "manifest.json": "139a8c04040f52f90a3c09eee5d054672c6884dcaf8c32e1bb66ea71aa8f0b80",
+    "metrics.json": "b3c4c3b3058bebb155dde39f6629142e6b10408207f01c171a42b68476457125",
+    "trades.parquet": "82d78900c499e94838eb36a598e5286f83dc2c8ecb87948e955714d39166ed4e"
+   }
+  },
+  {
+   "run_id": "20261126T143756Z_bh_LRCX_72c59d87",
+   "path": "runs/20261126T143756Z_bh_LRCX_72c59d87",
+   "strategy_id": "bh",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "LRCX",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:37:56.894466+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "b55f8e00caf3f86a52b3e8a86e72173571f174e4d652894dc32030c9344565d1",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.10976030321781272,
+     "max_drawdown": -0.6595174262734581
+    },
+    "eur_gross": {
+     "cagr": 0.15188729093759434,
+     "max_drawdown": -0.589040904212938
+    },
+    "eur_net": {
+     "cagr": 0.11954386842099463,
+     "max_drawdown": -0.589040904212938
+    },
+    "usd_net": {
+     "cagr": 0.07859974900255828,
+     "max_drawdown": -0.6595174262734581
+    }
+   },
+   "trades_per_year": 0.11118721461187216,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "343deed0bdd96c05ca3e3faecd6a5c0e6e560e7d998890d5744fd3c82bf54903",
+    "manifest.json": "d2fb5122ba32b15d021130c0d58a7b14e850f603eecc07fc0a3036182af35ee4",
+    "metrics.json": "2ac62855b7fb2430c675bc4dc5e898ca7ed035a0ddc39f00f10b8ab23452c02e",
+    "trades.parquet": "d55dc9cdfa69ac2ca2f375a2fa7d093e439cc46db9dcd14181aa4112591808e7"
+   }
+  },
+  {
+   "run_id": "20261126T143758Z_bh_dca_LRCX_ed585ced",
+   "path": "runs/20261126T143758Z_bh_dca_LRCX_ed585ced",
+   "strategy_id": "bh_dca",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "LRCX",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash",
+    "monthly_eur": 500.0
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:37:58.414073+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "b55f8e00caf3f86a52b3e8a86e72173571f174e4d652894dc32030c9344565d1",
+   "has_flows": true,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.10879131344930038,
+     "max_drawdown": -0.6600555574845732
+    },
+    "eur_gross": {
+     "cagr": 0.15088151789258575,
+     "max_drawdown": -0.5909164525389403
+    },
+    "eur_net": {
+     "cagr": 0.12042733106295578,
+     "max_drawdown": -0.5909164525389403
+    },
+    "usd_net": null
+   },
+   "trades_per_year": 12.008219178082193,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "1067a7d588c2548cc67e97d50ac6c5ac16e55065f4f3163f7876fbb061675998",
+    "manifest.json": "19dabfb4012d110ad5285b0eae1c706bb7c3b9e3368c4c58912ccb371b5c6e98",
+    "metrics.json": "9431f29314ea62d862f4a861f713ae1b79685d668cc2ff8150728e3632c24941",
+    "trades.parquet": "d32cacef595c0f9d20d99ab7c56dd725d65c4a6284e16dc5a245cbb66b4d0f36"
+   }
+  },
+  {
+   "run_id": "20261126T143759Z_ma200_long_cash_LRCX_5c896362",
+   "path": "runs/20261126T143759Z_ma200_long_cash_LRCX_5c896362",
+   "strategy_id": "ma200_long_cash",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "LRCX",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:37:59.924379+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "b55f8e00caf3f86a52b3e8a86e72173571f174e4d652894dc32030c9344565d1",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.1157152588870034,
+     "max_drawdown": -0.4051999805048071
+    },
+    "eur_gross": {
+     "cagr": 0.15806829933512634,
+     "max_drawdown": -0.3647994134746533
+    },
+    "eur_net": {
+     "cagr": 0.11954938888492017,
+     "max_drawdown": -0.3939034064603155
+    },
+    "usd_net": {
+     "cagr": 0.07860506757128305,
+     "max_drawdown": -0.42249023732691826
+    }
+   },
+   "trades_per_year": 1.445433789954338,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "b5e752fd30caaa4f83d5fbce7818f1c2cc94b0c7cb4623923e3848346dfce9cd",
+    "manifest.json": "2b691f1a167c3cae05e1facce7a358231646701e6c8bc584e3508c2627f11282",
+    "metrics.json": "39313c4976a2a022e9252be3066f40cda9140aa8714825e2bde653999a3e80c7",
+    "trades.parquet": "e55f16e03cc0d491826e93e0d6ac7c8bbf854b9297f8354dffe06354cb85b1aa"
+   }
+  },
+  {
+   "run_id": "20261126T143801Z_bh_AMAT_cb7fb9cc",
+   "path": "runs/20261126T143801Z_bh_AMAT_cb7fb9cc",
+   "strategy_id": "bh",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "AMAT",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:38:01.390728+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "9740250e20c794584085e82115a1a195853bf0647290a66d50e8ad39c614398c",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.09227481035897811,
+     "max_drawdown": -0.6174999999999999
+    },
+    "eur_gross": {
+     "cagr": 0.13373804110276932,
+     "max_drawdown": -0.520101180438447
+    },
+    "eur_net": {
+     "cagr": 0.1040271635712362,
+     "max_drawdown": -0.520101180438447
+    },
+    "usd_net": {
+     "cagr": 0.06365052331486698,
+     "max_drawdown": -0.6174999999999999
+    }
+   },
+   "trades_per_year": 0.11118721461187216,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "82526efdf48d588637976b9ef8d7a6b077f5aa56f841847f94538bc6ecd9a5be",
+    "manifest.json": "5d6b4a681ac7d5c110ac568941a4cf23cd50752967d75d1cd9cbea2ed290b342",
+    "metrics.json": "20047734b79303f2dc1d9f8d975720d7ff9f1373308d4e3171d5a1c6861e06f2",
+    "trades.parquet": "8fce356ac97aca08eb1ec4595ad9de4b26ed50c8e8b35536a5e0e97c6975de92"
+   }
+  },
+  {
+   "run_id": "20261126T143802Z_bh_dca_AMAT_ca8fd7b4",
+   "path": "runs/20261126T143802Z_bh_dca_AMAT_ca8fd7b4",
+   "strategy_id": "bh_dca",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "AMAT",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash",
+    "monthly_eur": 500.0
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:38:02.859830+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "9740250e20c794584085e82115a1a195853bf0647290a66d50e8ad39c614398c",
+   "has_flows": true,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.09128683221777134,
+     "max_drawdown": -0.6182099619849649
+    },
+    "eur_gross": {
+     "cagr": 0.1327125588781104,
+     "max_drawdown": -0.5209919253234641
+    },
+    "eur_net": {
+     "cagr": 0.10330779247095312,
+     "max_drawdown": -0.5209919253234641
+    },
+    "usd_net": null
+   },
+   "trades_per_year": 12.008219178082193,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "e27575927e36901b94cad6c77800a99618b5e7930b4b2a6a0585b30574cd75f9",
+    "manifest.json": "5c0fc358516d3ccbe297302fd0fd83a2c5bc7115d04ed511748fe3b35d771982",
+    "metrics.json": "d82f24a72db9f22b308f79c16e774b8ed8a87dd9cab2a7450bb966cf9c10b5ae",
+    "trades.parquet": "1f5dc534cde007c77fd8acebbe2023d03c637745acf71c96a08e4f9eaf1a2511"
+   }
+  },
+  {
+   "run_id": "20261126T143804Z_ma200_long_cash_AMAT_b7505918",
+   "path": "runs/20261126T143804Z_ma200_long_cash_AMAT_b7505918",
+   "strategy_id": "ma200_long_cash",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "AMAT",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:38:04.346403+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "9740250e20c794584085e82115a1a195853bf0647290a66d50e8ad39c614398c",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.0280865748765855,
+     "max_drawdown": -0.5632042096194323
+    },
+    "eur_gross": {
+     "cagr": 0.06711319205609523,
+     "max_drawdown": -0.5212827856883002
+    },
+    "eur_net": {
+     "cagr": 0.052845526701700285,
+     "max_drawdown": -0.5212827856883002
+    },
+    "usd_net": {
+     "cagr": 0.014340708632141208,
+     "max_drawdown": -0.5632042096194323
+    }
+   },
+   "trades_per_year": 2.4461187214611875,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "a7169e27ac3bcb3b9b48b401eb698b930fa13193b4208f2a59126a1ca70cb43c",
+    "manifest.json": "354434ae656159805a86577caf6c9689dcbb41daefddf9ebcf25e9d38b94645a",
+    "metrics.json": "0d5a31f5f801eef4219b728991d8c3df502f4daab0cb8bb1659ae819172c40fa",
+    "trades.parquet": "60be1bae578d405266ddff93fc7957941a69f9d5da27e394c312807b434098b5"
+   }
+  },
+  {
+   "run_id": "20261126T143805Z_bh_KLAC_5bf5566b",
+   "path": "runs/20261126T143805Z_bh_KLAC_5bf5566b",
+   "strategy_id": "bh",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "KLAC",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:38:05.845140+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "df4a7db911a3ba13eadd20dc6f6006b2fd492fda27f24822056898da7d191fb9",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.11286736422246779,
+     "max_drawdown": -0.6797835713329293
+    },
+    "eur_gross": {
+     "cagr": 0.15511229734037535,
+     "max_drawdown": -0.6227144718549396
+    },
+    "eur_net": {
+     "cagr": 0.1223253596147873,
+     "max_drawdown": -0.6227144718549396
+    },
+    "usd_net": {
+     "cagr": 0.08127951510025433,
+     "max_drawdown": -0.6797835713329293
+    }
+   },
+   "trades_per_year": 0.11118721461187216,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "130eba556e2a53460e10877ca0fd3d9cf0fcf0d39621ede01267dda24651a700",
+    "manifest.json": "15b61c2edc7af4c6e5520c68b17d5a462aab7175e3acefdfa0d825b21d835cc6",
+    "metrics.json": "137a99df1c0e4822b6eb194bdafbf2434ae89c0ea112d59de6049e80273cdd90",
+    "trades.parquet": "12b00e55299b72cbe4cb5fe8188f23ad6905dd1739d12402c899b6a5f46a7a16"
+   }
+  },
+  {
+   "run_id": "20261126T143807Z_bh_dca_KLAC_3b995e42",
+   "path": "runs/20261126T143807Z_bh_dca_KLAC_3b995e42",
+   "strategy_id": "bh_dca",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "KLAC",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash",
+    "monthly_eur": 500.0
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:38:07.355501+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "df4a7db911a3ba13eadd20dc6f6006b2fd492fda27f24822056898da7d191fb9",
+   "has_flows": true,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.11189940767076356,
+     "max_drawdown": -0.6812609075956652
+    },
+    "eur_gross": {
+     "cagr": 0.15410759673353702,
+     "max_drawdown": -0.6244550995749296
+    },
+    "eur_net": {
+     "cagr": 0.123070710364938,
+     "max_drawdown": -0.6244550995749296
+    },
+    "usd_net": null
+   },
+   "trades_per_year": 12.008219178082193,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "e521a1865ccb42dd08b637731f5aa50c9efdec4a8357d0dcd90fc830e0281095",
+    "manifest.json": "554d393a6d181462274f00fce1611e5ac27a2b9a5886ab93ea8b911f341777d9",
+    "metrics.json": "5a636f5c81eb61d2c6994510be2d3c478d35ea008e42231b91fc5ed06e4ffb8a",
+    "trades.parquet": "1d1361e66cb6e4a188d601399a3e85b1801bace96152b7f8a4fb7172b956ed90"
+   }
+  },
+  {
+   "run_id": "20261126T143808Z_ma200_long_cash_KLAC_3f4f39a6",
+   "path": "runs/20261126T143808Z_ma200_long_cash_KLAC_3f4f39a6",
+   "strategy_id": "ma200_long_cash",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "KLAC",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:38:08.823284+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "df4a7db911a3ba13eadd20dc6f6006b2fd492fda27f24822056898da7d191fb9",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.07137382449717755,
+     "max_drawdown": -0.32536189403416893
+    },
+    "eur_gross": {
+     "cagr": 0.11204364465295358,
+     "max_drawdown": -0.3048109926666983
+    },
+    "eur_net": {
+     "cagr": 0.0837336646206166,
+     "max_drawdown": -0.31376210968708773
+    },
+    "usd_net": {
+     "cagr": 0.044099201127382415,
+     "max_drawdown": -0.34782180978529276
+    }
+   },
+   "trades_per_year": 1.445433789954338,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "c5119cf0e8fcd029b61d0f5dc7dd39df5f32f7a26f8348f10d8fc89b5e09b7cb",
+    "manifest.json": "6a6d45a0b07a1e4cadcc7366506ef09e3255b22d5ed79d511e0cd008396aa1e0",
+    "metrics.json": "714bc102edf4796dfcdfe82826b19e5a9bd18c628f0816b4e2e4363688f20d4c",
+    "trades.parquet": "f41168eadb1a008a8aedcd189c0bb1403259d2cc0c74bed41ca83b7da3050256"
+   }
+  },
+  {
+   "run_id": "20261126T143810Z_bh_COHR_a8227110",
+   "path": "runs/20261126T143810Z_bh_COHR_a8227110",
+   "strategy_id": "bh",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "COHR",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:38:10.286467+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "0de573d4fff64fbecb6235f473b1b94b8d35abe020f965d37e0df70e1d6eda53",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.07708491665785777,
+     "max_drawdown": -0.6817988969028428
+    },
+    "eur_gross": {
+     "cagr": 0.11797153237626268,
+     "max_drawdown": -0.6283154263965436
+    },
+    "eur_net": {
+     "cagr": 0.09075283551033997,
+     "max_drawdown": -0.6283154263965436
+    },
+    "usd_net": {
+     "cagr": 0.050861665889518015,
+     "max_drawdown": -0.6817988969028428
+    }
+   },
+   "trades_per_year": 0.11118721461187216,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "5a91ed321d669deb343803a8bbab86bebe6784eba87f08a9b998cd7c1f2dd3bf",
+    "manifest.json": "794e9a9cefcee3001819b2e9d0203ae3485c7906f5bba25e51bb11731497ce33",
+    "metrics.json": "91cd30dd5b249779e232a870385126ddf3028c89ebd0db85ab6fbc4e743b79b6",
+    "trades.parquet": "18836744bef49aae999b02556cd73877764102c107283267b3dcd5e56af3a1ac"
+   }
+  },
+  {
+   "run_id": "20261126T143811Z_bh_dca_COHR_cc52be2a",
+   "path": "runs/20261126T143811Z_bh_dca_COHR_cc52be2a",
+   "strategy_id": "bh_dca",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "COHR",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash",
+    "monthly_eur": 500.0
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:38:11.774696+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "0de573d4fff64fbecb6235f473b1b94b8d35abe020f965d37e0df70e1d6eda53",
+   "has_flows": true,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.07613932327615913,
+     "max_drawdown": -0.6821894792448548
+    },
+    "eur_gross": {
+     "cagr": 0.11699004385517076,
+     "max_drawdown": -0.6287716580998097
+    },
+    "eur_net": {
+     "cagr": 0.09383982962267678,
+     "max_drawdown": -0.6287716580998097
+    },
+    "usd_net": null
+   },
+   "trades_per_year": 12.008219178082193,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "1cc83af197938f5f8704df5c5e02ad568f26278ce1674bb2e2c15965b843d699",
+    "manifest.json": "8a0ee3554718e8abb51b95d90175494b11fd2c88de565c4c890e2ebb322eb37f",
+    "metrics.json": "2699194c7b9a48aa8a9d840b53a72351061cbec1710029641fdb5b123ef33357",
+    "trades.parquet": "b099a5eea12b41924ccb4d87ec359149921056849bd19a2563855453204e2adc"
+   }
+  },
+  {
+   "run_id": "20261126T143813Z_ma200_long_cash_COHR_8394440c",
+   "path": "runs/20261126T143813Z_ma200_long_cash_COHR_8394440c",
+   "strategy_id": "ma200_long_cash",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "COHR",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:38:13.260440+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "0de573d4fff64fbecb6235f473b1b94b8d35abe020f965d37e0df70e1d6eda53",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.08053465309327179,
+     "max_drawdown": -0.4910711857063802
+    },
+    "eur_gross": {
+     "cagr": 0.1215522223194132,
+     "max_drawdown": -0.39176431181600135
+    },
+    "eur_net": {
+     "cagr": 0.093450761236197,
+     "max_drawdown": -0.42667530414653587
+    },
+    "usd_net": {
+     "cagr": 0.05346092268759306,
+     "max_drawdown": -0.5202822469409473
+    }
+   },
+   "trades_per_year": 1.6678082191780823,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "ff4f3e46017a450e79e5ba60913bb9d6e818a0786937a4d00e851d284faa842b",
+    "manifest.json": "53e330b7655733ed0ceeaad6ddbff8c896fec2556861b157df0713085a2003a5",
+    "metrics.json": "88faafca984c168d9fb67a2e775e7eb496a211db477bfee3df3dcafd7a011994",
+    "trades.parquet": "628f28882a8c298db8f273121f47b94f7f45054ee4cec40214d3a7cb6bbac08b"
+   }
+  },
+  {
+   "run_id": "20261126T143814Z_bh_TSEM_5a7d802a",
+   "path": "runs/20261126T143814Z_bh_TSEM_5a7d802a",
+   "strategy_id": "bh",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "TSEM",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:38:14.824770+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "10933f1313e99f447dc31f16d831fdd019240b1e7c7055725866f3ec4f7703e5",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": -0.009787093580069461,
+     "max_drawdown": -0.9310325604731002
+    },
+    "eur_gross": {
+     "cagr": 0.027801822537912857,
+     "max_drawdown": -0.9278092556344606
+    },
+    "eur_net": {
+     "cagr": 0.019708611276826327,
+     "max_drawdown": -0.9278092556344606
+    },
+    "usd_net": {
+     "cagr": -0.0175843187545901,
+     "max_drawdown": -0.9310325604731002
+    }
+   },
+   "trades_per_year": 0.11118721461187216,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "7062d60ad0126dc944e200bf25b743eade51ed8fa1b09a4d1efa4e6c5bb5a72d",
+    "manifest.json": "f49bf0e2b5f1bd31ba53cc15930c81799e4b201f573a76946aaa4094e8e84807",
+    "metrics.json": "0a0b60ea8253aa523056065f1e9165deb28034df6e20cd1e1f8c1f1d8d62251b",
+    "trades.parquet": "8b09949ed2cc146bd6d26e7cc04c35d16f96c112e33e1796be184fc1f86d6f31"
+   }
+  },
+  {
+   "run_id": "20261126T143816Z_bh_dca_TSEM_90637479",
+   "path": "runs/20261126T143816Z_bh_dca_TSEM_90637479",
+   "strategy_id": "bh_dca",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "TSEM",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash",
+    "monthly_eur": 500.0
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:38:16.387683+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "10933f1313e99f447dc31f16d831fdd019240b1e7c7055725866f3ec4f7703e5",
+   "has_flows": true,
+   "metrics": {
+    "usd_gross": {
+     "cagr": -0.010770974992630467,
+     "max_drawdown": -0.93132657742604
+    },
+    "eur_gross": {
+     "cagr": 0.026780592555516902,
+     "max_drawdown": -0.9281170139452583
+    },
+    "eur_net": {
+     "cagr": 0.0025546111492964485,
+     "max_drawdown": -0.9281170139452583
+    },
+    "usd_net": null
+   },
+   "trades_per_year": 12.008219178082193,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "50380b5f63faae10f57a1d79603c9a5d9e74b291c6d29a554ebdb578455931b0",
+    "manifest.json": "e7a7f59ff63182e610f9975a03b1fcb9454144295da221edb59286ab423ca72f",
+    "metrics.json": "1ed7e50967da229a3e2f8ddb4559461e5a8c0683f82f4cc24297dada2d974307",
+    "trades.parquet": "fd8fa5ffd34eb88fca9cb7c68b7e32fce31a3c966accf99cd9ceacedcf7a1bd7"
+   }
+  },
+  {
+   "run_id": "20261126T143818Z_ma200_long_cash_TSEM_1e4b0662",
+   "path": "runs/20261126T143818Z_ma200_long_cash_TSEM_1e4b0662",
+   "strategy_id": "ma200_long_cash",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "TSEM",
+   "universe_id": "ai-semis@v1",
+   "tax_regime": "cto",
+   "split": "exploration",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2008-01-02",
+   "last_session": "2016-12-30",
+   "created_at": "2026-11-26T14:38:18.002099+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "c717f9eae75e3c7dbc26d847f070fcb82b03d59b",
+   "data_hash": "10933f1313e99f447dc31f16d831fdd019240b1e7c7055725866f3ec4f7703e5",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.22608671917175327,
+     "max_drawdown": -0.5464638833213383
+    },
+    "eur_gross": {
+     "cagr": 0.27262950864815627,
+     "max_drawdown": -0.5455730452433456
+    },
+    "eur_net": {
+     "cagr": 0.20248640560123654,
+     "max_drawdown": -0.6603837300353927
+    },
+    "usd_net": {
+     "cagr": 0.15850889978056415,
+     "max_drawdown": -0.6610494984323214
+    }
+   },
+   "trades_per_year": 2.0013698630136987,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "9b6ec9f4f9e1016f411f3346ccd97d466a4802dd397f77a8c86ecc53e26fda16",
+    "manifest.json": "08766472de3d6d50d443e5d1767d8757d975fa69e6d2197ce03709f8a1c718dd",
+    "metrics.json": "7b7b3c1918cba6af13dbbd1bdc23dde3c6feedd4066198d5276882fe9576f80d",
+    "trades.parquet": "c3f4cad5ab926049f9172f66d74e55a60dfdfba2dcbf8cdf4a6dc2036c708a43"
    }
   }
  ]
