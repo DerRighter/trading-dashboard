@@ -1,0 +1,78 @@
+{
+ "run_id": "20261126T155507Z_sector_rotation_SECTORS9_53459f52",
+ "schema_version": 3,
+ "strategy_id": "sector_rotation",
+ "strategy_kind": "strategy",
+ "params": {
+  "mode": "long_cash",
+  "top_n": 1,
+  "lookback": 3,
+  "abs_filter": false,
+  "rebalance": "monthly"
+ },
+ "mode": "long_cash",
+ "symbol": "SECTORS9",
+ "symbols": [
+  "XLB",
+  "XLE",
+  "XLF",
+  "XLI",
+  "XLK",
+  "XLP",
+  "XLU",
+  "XLV",
+  "XLY"
+ ],
+ "portfolio": true,
+ "universe": {
+  "id": "sectors9@v1",
+  "name": "sectors9",
+  "version": 1,
+  "tax_regime": "cto"
+ },
+ "regime": {
+  "id": "ma200",
+  "version": 2,
+  "regime_version": "ma200-v2-324f48d33452"
+ },
+ "period": {
+  "start": "2008-01-01",
+  "end": "2016-12-31",
+  "first_session": "2008-01-02",
+  "last_session": "2016-12-30"
+ },
+ "split": "exploration",
+ "git_sha": "4c738975959ebb4c684bac1bbe65723bc95edc54",
+ "git_dirty": false,
+ "data_hash": "4eda5e15f3b4ea7fdbb1ca759dc5f6659759aa1af8082d2ed88a092aebc73a2b",
+ "origin": "sweep",
+ "sweep_id": "20261126T155505Z_sector_rotation_a7940ab1",
+ "created_at": "2026-11-26T15:55:07.839776+00:00",
+ "duration_s": 1.485,
+ "currency": {
+  "account": "USD",
+  "investor": "EUR",
+  "fx_symbol": "EURUSD",
+  "rule": "EUR = USD / EURUSD à chaque date"
+ },
+ "costs": {
+  "commission_bps": 1.0,
+  "commission_min_usd": 1.0,
+  "slippage_bps": 2.0
+ },
+ "tax": {
+  "regime": "cto",
+  "mode": "realized_yearly",
+  "rate": 0.314,
+  "loss_carryforward_years": 10,
+  "pea_social_rate": 0.186,
+  "pea_exemption_years": 5,
+  "label": "estimation pour comparaison, pas un calcul fiscal"
+ },
+ "equity_frequency": "daily",
+ "engine": {
+  "execution": "poids décidés à la clôture de J, exécutés à l'ouverture de J+1 (portefeuille, ventes avant achats)",
+  "initial_eur": 10000.0,
+  "research_config_version": 1
+ }
+}
