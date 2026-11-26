@@ -1,9 +1,10 @@
 // Garde de version : une version inconnue affiche un message, jamais un
 // graphique faux (spec, règles d'affichage).
 
-export const INDEX_SCHEMA = 2;           // v2 : métriques CAGR / max DD par vue, eligible
+export const INDEX_SCHEMA = 3;           // v3 : schema_version, symbols, portfolio par run
 export const MARKET_INDEX_SCHEMA = 1;
-export const RESULTS_SCHEMA = 2;
+export const RESULTS_SCHEMA = 3;         // version écrite par trading-bot
+export const RESULTS_SCHEMAS = [2, 3] as const;   // versions lisibles (v3 : weights.parquet)
 export const TRIALS_SCHEMA = 1;
 export const FREQUENCIES = ["daily", "weekly"] as const;
 
@@ -37,12 +38,16 @@ export function checkTrials(doc: { schema_version?: unknown }): void {
     throw new SchemaError(`trials.json : schema_version ${String(doc.schema_version)} inconnue (supportée : ${TRIALS_SCHEMA}).`);
 }
 
+export function isReadableResults(v: unknown): v is (typeof RESULTS_SCHEMAS)[number] {
+  return (RESULTS_SCHEMAS as readonly unknown[]).includes(v);
+}
+
 export function checkRun(runId: string, manifest: { schema_version?: unknown; equity_frequency?: unknown },
                          metrics: { schema_version?: unknown }): void {
-  if (manifest.schema_version !== RESULTS_SCHEMA)
-    throw new SchemaError(`${runId} : manifest en schema_version ${String(manifest.schema_version)}, inconnue (supportée : ${RESULTS_SCHEMA}). Données non affichées.`);
-  if (metrics.schema_version !== RESULTS_SCHEMA)
-    throw new SchemaError(`${runId} : metrics en schema_version ${String(metrics.schema_version)}, inconnue. Données non affichées.`);
+  if (!isReadableResults(manifest.schema_version))
+    throw new SchemaError(`${runId} : manifest en schema_version ${String(manifest.schema_version)}, inconnue (supportées : ${RESULTS_SCHEMAS.join(", ")}). Données non affichées.`);
+  if (metrics.schema_version !== manifest.schema_version)
+    throw new SchemaError(`${runId} : metrics en schema_version ${String(metrics.schema_version)}, différente du manifest. Données non affichées.`);
   if (!FREQUENCIES.includes(manifest.equity_frequency as (typeof FREQUENCIES)[number]))
     throw new SchemaError(`${runId} : equity_frequency « ${String(manifest.equity_frequency)} » inconnue. Données non affichées.`);
 }

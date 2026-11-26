@@ -1,10 +1,12 @@
-// Formats produits par trading-bot (tools/export_results.py, résultats v2).
+// Formats produits par trading-bot (tools/export_results.py, résultats v2 et v3).
+import type { Weights } from "./allocation";
 
 export type Ccy = "usd" | "eur";
 export type StrategyKind = "benchmark" | "strategy";
 export type Split = "train" | "exploration" | "control" | "validation";
 export type Frequency = "daily" | "weekly";
-export const BENCHMARKS = ["bh", "bh_dca", "ma200_long_cash"] as const;
+// Mono-titre : bh, bh_dca, ma200_long_cash ; portefeuille : ew_annual, bh_spy, bh_qqq.
+export const BENCHMARKS = ["bh", "bh_dca", "ma200_long_cash", "ew_annual", "bh_spy", "bh_qqq"] as const;
 export type BenchmarkId = (typeof BENCHMARKS)[number];
 
 export interface IndexRun {
@@ -14,6 +16,10 @@ export interface IndexRun {
   strategy_kind: StrategyKind;
   mode: string;
   symbol: string;
+  /** v3 : titres du run (mono : [symbol]) ; absent des index v2. */
+  symbols?: string[];
+  portfolio?: boolean;
+  schema_version?: number;
   universe_id: string;
   tax_regime: "cto" | "pea";
   split: Split;
@@ -105,6 +111,8 @@ export interface Manifest {
   params: Record<string, unknown>;
   mode: string;
   symbol: string;
+  symbols?: string[];
+  portfolio?: boolean;
   universe: { id: string; name: string; version: number; tax_regime: string };
   regime: { id: string; version: number; regime_version: string };
   period: { start: string; end: string | null; first_session: string; last_session: string };
@@ -182,4 +190,6 @@ export interface Run {
   metrics: Metrics;
   equity: Equity;
   trades: Trade[];
+  /** v3 : poids par titre et par séance ; null pour un run v2. */
+  weights: Weights | null;
 }

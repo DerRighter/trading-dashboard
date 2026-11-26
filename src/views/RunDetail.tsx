@@ -1,5 +1,7 @@
 import { useCallback, useMemo } from "react";
 import { EChart, histogram } from "../charts/EChart";
+import { allocationSeries } from "../data/allocation";
+import type { Weights } from "../data/allocation";
 import { Legend, LineChart, type LineSpec } from "../charts/LineChart";
 import { bearZones, drawdown, hasFlows, monthlyReturns, twr, viewKey } from "../data/series";
 import type { Run, TrialsFile, ViewKey } from "../data/types";
@@ -186,6 +188,31 @@ function InvestedVsValue({ run }: { run: Run }) {
   );
 }
 
+const PALETTE = ["#4e79a7", "#f28e2b", "#e15759", "#76b7b2", "#59a14f", "#edc948", "#b07aa1",
+                 "#ff9da7", "#9c755f", "#bab0ac"];
+
+/** Allocation empilée (runs portefeuille, v3) : poids de chaque titre en fin
+ *  de séance, cash en dernier (gris). */
+function Allocation({ weights }: { weights: Weights }) {
+  const build = useCallback((c: { muted: string; grid: string }) => {
+    const series = allocationSeries(weights);
+    return {
+      tooltip: { trigger: "axis", valueFormatter: (v: number) => `${v.toFixed(1)} %` },
+      legend: { top: 0, textStyle: { color: c.muted }, type: "scroll" },
+      grid: { left: 48, right: 16, top: 36, bottom: 28 },
+      xAxis: { type: "time", axisLabel: { color: c.muted } },
+      yAxis: { type: "value", min: 0, max: 100, axisLabel: { color: c.muted, formatter: "{value} %" },
+               splitLine: { lineStyle: { color: c.grid } } },
+      series: series.map((s, k) => ({
+        name: s.name, type: "line", stack: "w", step: "end", symbol: "none", sampling: "lttb",
+        lineStyle: { width: 0 }, areaStyle: { opacity: 0.85 },
+        color: s.name === "cash" ? "#888888" : PALETTE[k % PALETTE.length], data: s.data,
+      })),
+    };
+  }, [weights]);
+  return <EChart build={build} height={320} />;
+}
+
 export function RunDetail({ id }: { id: string }) {
   const { data: b, error } = useRunBundle(id);
   const { ref } = useControls();
@@ -215,6 +242,14 @@ export function RunDetail({ id }: { id: string }) {
           </>
         )}
       </section>
+      {run.manifest.portfolio && run.weights && (
+        <section className="card">
+          <h2>Allocation ({run.weights.symbols.length} titres + cash)</h2>
+          <Allocation weights={run.weights} />
+          <p className="muted">Poids de chaque titre en fin de séance (valeur de la ligne / équité) ;
+            cash = complément. Les poids dérivent avec les prix entre deux ordres.</p>
+        </section>
+      )}
       {hasFlows(run.equity) && <InvestedVsValue run={run} />}
       <section className="card">
         <h2>Métriques <TrialsBadge strategy={run.manifest.strategy_id} trials={b.trials} /></h2>

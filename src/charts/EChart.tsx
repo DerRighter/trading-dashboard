@@ -2,13 +2,13 @@ import { useEffect, useRef } from "react";
 import * as echarts from "echarts/core";
 import { BarChart, HeatmapChart, LineChart as ELine } from "echarts/charts";
 import {
-  GridComponent, MarkLineComponent, TooltipComponent, VisualMapComponent,
+  GridComponent, LegendComponent, MarkLineComponent, TooltipComponent, VisualMapComponent,
 } from "echarts/components";
 import { CanvasRenderer } from "echarts/renderers";
 import { themeColors, useControls } from "../ui/state";
 
-echarts.use([BarChart, HeatmapChart, ELine, GridComponent, TooltipComponent, VisualMapComponent,
-             MarkLineComponent, CanvasRenderer]);
+echarts.use([BarChart, HeatmapChart, ELine, GridComponent, LegendComponent, TooltipComponent,
+             VisualMapComponent, MarkLineComponent, CanvasRenderer]);
 
 export type EOption = echarts.EChartsCoreOption;
 

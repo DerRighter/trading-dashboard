@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { parseWeights } from "../src/data/allocation";
 import { parseEquity, parseTrades, readParquet } from "../src/data/load";
 import type { IndexFile, Run } from "../src/data/types";
 
@@ -17,11 +18,15 @@ function ab(p: string): ArrayBuffer {
 /** Lecture d'un run exporté depuis le disque (mêmes parseurs que le front). */
 export async function readRun(runPath: string): Promise<Run> {
   const d = path.join(DATA, runPath);
+  const manifest = JSON.parse(fs.readFileSync(path.join(d, "manifest.json"), "utf8"));
+  const wp = path.join(d, "weights.parquet");
   return {
-    manifest: JSON.parse(fs.readFileSync(path.join(d, "manifest.json"), "utf8")),
+    manifest,
     metrics: JSON.parse(fs.readFileSync(path.join(d, "metrics.json"), "utf8")),
     equity: parseEquity(await readParquet(ab(path.join(d, "equity.parquet")))),
     trades: parseTrades(await readParquet(ab(path.join(d, "trades.parquet")))),
+    weights: manifest.schema_version === 3
+      ? parseWeights(await readParquet(ab(wp)), manifest.symbols ?? [manifest.symbol]) : null,
   };
 }
 

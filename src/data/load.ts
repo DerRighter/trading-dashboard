@@ -2,9 +2,10 @@
 // (et trials.json pour le compteur) ; les fichiers d'un run (manifest,
 // metrics, Parquet) ne sont lus qu'à l'ouverture de ce run.
 import { parquetReadObjects } from "hyparquet";
+import { parseWeights } from "./allocation";
 import {
-  checkIndex, checkMarketIndex, checkRun, checkTrials, EQUITY_COLUMNS, MARKET_COLUMNS, PRICE_COLUMNS,
-  SchemaError,
+  checkIndex, checkMarketIndex, checkRun, checkTrials, EQUITY_COLUMNS, isReadableResults,
+  MARKET_COLUMNS, PRICE_COLUMNS, SchemaError,
 } from "./guards";
 import type {
   Equity, IndexFile, Manifest, Market, MarketIndex, Metrics, Run, Trade, TrialsFile,
@@ -95,7 +96,7 @@ export function loadMetrics(runId: string, path: string): Promise<Metrics> {
   let p = metricsCache.get(runId);
   if (!p) {
     p = json<Metrics>(`${DATA_URL}${path}/metrics.json`).then((m) => {
-      if (m.schema_version !== 2) throw new SchemaError(`${runId} : metrics en schema_version ${m.schema_version}, inconnue.`);
+      if (!isReadableResults(m.schema_version)) throw new SchemaError(`${runId} : metrics en schema_version ${m.schema_version}, inconnue.`);
       return m;
     });
     p.catch(() => metricsCache.delete(runId));
@@ -113,13 +114,16 @@ export function loadRun(runId: string, path: string): Promise<Run> {
       const [manifest, metrics] = await Promise.all([
         json<Manifest>(`${base}manifest.json`), json<Metrics>(`${base}metrics.json`)]);
       checkRun(runId, manifest, metrics);           // avant toute lecture de séries
-      const [eq, tr] = await Promise.all([
+      const v3 = manifest.schema_version === 3;
+      const [eq, tr, wt] = await Promise.all([
         fetchOk(`${base}equity.parquet`).then((r) => r.arrayBuffer()),
-        fetchOk(`${base}trades.parquet`).then((r) => r.arrayBuffer())]);
+        fetchOk(`${base}trades.parquet`).then((r) => r.arrayBuffer()),
+        v3 ? fetchOk(`${base}weights.parquet`).then((r) => r.arrayBuffer()) : null]);
       return {
         manifest, metrics,
         equity: parseEquity(await readParquet(eq, [...EQUITY_COLUMNS])),
         trades: parseTrades(await readParquet(tr)),
+        weights: wt ? parseWeights(await readParquet(wt), manifest.symbols ?? [manifest.symbol]) : null,
       };
     })();
     p.catch(() => runCache.delete(runId));
