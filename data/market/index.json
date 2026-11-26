@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-26T09:54:20+00:00",
+ "generated_at": "2026-11-26T10:08:54+00:00",
  "source": {
   "repo": "trading-bot",
   "sha": "417c277aa6f7d0e8962b0c10e8da901999e07993"
@@ -23,208 +23,208 @@
    "symbol": "QQQ",
    "path": "market/QQQ.parquet",
    "first_date": "2007-01-03",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": null,
-   "rows": 5006,
-   "sha256": "94bca2e0aefe3e7d2a0a1204cc423b1f30112cb91047279199aa8208772c78d1"
+   "rows": 5007,
+   "sha256": "424f206fdb5862033ac9d3ff7f3051b237ca0892e7596f2f767d4b21662e5ed9"
   },
   {
    "symbol": "URTH",
    "path": "market/URTH.parquet",
    "first_date": "2013-10-01",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": "2013-10-01",
-   "rows": 3308,
-   "sha256": "3f81febdb393f9f4f769308afaa90cdba624c56e827be5e27623d9fbea619651"
+   "rows": 3309,
+   "sha256": "008d61e8fbf7c5fa1638db047340165d4fda1942558aa68f4438136f0d0b3225"
   },
   {
    "symbol": "GOOGL",
    "path": "market/GOOGL.parquet",
    "first_date": "2007-01-03",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": null,
-   "rows": 5006,
-   "sha256": "612db08af075f2292dc21b7099db8454e71c663cd2839bab3b8226b416704319"
+   "rows": 5007,
+   "sha256": "a4107718772bad63406c163650855d75cba953e3808d93d90ac99ab7ded1bce8"
   },
   {
    "symbol": "ASML",
    "path": "market/ASML.parquet",
    "first_date": "2007-01-03",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": null,
-   "rows": 5006,
-   "sha256": "279cfdc4f532ebc80316e47356cb1d427618849dfbb233113c67157bca487941"
+   "rows": 5007,
+   "sha256": "8c2adfb4f0a6efe974dc1d310355c9357445617cedffaf8e2457bcb475264743"
   },
   {
    "symbol": "QCOM",
    "path": "market/QCOM.parquet",
    "first_date": "2007-01-03",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": null,
-   "rows": 5006,
-   "sha256": "daebef72db54e0347b35bad3d41b72ee8cf5d8c597b0ba18bd9e2aeccef0fede"
+   "rows": 5007,
+   "sha256": "57f3783375058573dbc553fb510d2228f5e6a2800d123909c85707b579cab22b"
   },
   {
    "symbol": "SNDK",
    "path": "market/SNDK.parquet",
    "first_date": "2025-02-13",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": null,
-   "rows": 448,
-   "sha256": "9ae2368ec0e2a289f19dfb7f46c1f84e6c871ee5f9c42d4f8426c1291e0fcf35"
+   "rows": 449,
+   "sha256": "6cc80d45a596ef35325aaa1bd835340f333eca3c533426f1710c33b281a05e87"
   },
   {
    "symbol": "CRWV",
    "path": "market/CRWV.parquet",
    "first_date": "2025-03-28",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": null,
-   "rows": 418,
-   "sha256": "723e41b9e9c440ccc887573b596af98f13fefcfa799c9923b3c24b793d302d00"
+   "rows": 419,
+   "sha256": "d5952603b03ac074d9c3395269a8cea6c6f225d6842fb9bc13e8b76d7e191e99"
   },
   {
    "symbol": "NBIS",
    "path": "market/NBIS.parquet",
    "first_date": "2011-05-24",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": null,
-   "rows": 3900,
-   "sha256": "65429926f660ce064eef706b169a62df5300d29de89eaa31559c750863fb2e44"
+   "rows": 3901,
+   "sha256": "e8837e435b702f933e1d70fdd18d11c28d660ea679bccb0c95dec5f432cc70cf"
   },
   {
    "symbol": "LITE",
    "path": "market/LITE.parquet",
    "first_date": "2015-07-23",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": null,
-   "rows": 2853,
-   "sha256": "cb11143f6ccb8ce4c634c22129df52761c514d10f3c3000349adeda359847410"
+   "rows": 2854,
+   "sha256": "d957a760b01dbbb28b9f083d95495a13157dfcfd7490017cbadffbec7121a16d"
   },
   {
    "symbol": "NVDA",
    "path": "market/NVDA.parquet",
    "first_date": "2007-01-03",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": null,
-   "rows": 5006,
-   "sha256": "62d08752a095eb84e1e20762c7b92d34a3658d3c6727c999376c4f18593c084b"
+   "rows": 5007,
+   "sha256": "d0f56bdc6f0d4906ebda437980f6fbcb9bf1b78d4892a22318fd0a7ea45ec2d6"
   },
   {
    "symbol": "LRCX",
    "path": "market/LRCX.parquet",
    "first_date": "2007-01-03",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": null,
-   "rows": 5006,
-   "sha256": "1d1a2134c621f6c6ebf940500922b0505ca062f1ec7381fdf3eed9c1c98f366c"
+   "rows": 5007,
+   "sha256": "d6f9bb13c7033d0fba8fcefb24d4b007bc892c3ad958085a5b652e9f02f5e200"
   },
   {
    "symbol": "AMAT",
    "path": "market/AMAT.parquet",
    "first_date": "2007-01-03",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": null,
-   "rows": 5006,
-   "sha256": "6e57d3c0a0c4acd43be1835aded596e5857fd8d26cad31d71c4544ea29dfd68b"
+   "rows": 5007,
+   "sha256": "da422923f5236e7bbaab29b60a1feacedf96423d8ff3642ac20a3ad7c73ca468"
   },
   {
    "symbol": "MU",
    "path": "market/MU.parquet",
    "first_date": "2009-12-30",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": null,
-   "rows": 4252,
-   "sha256": "112205011948e700644bcc0444088bae0a3cedf50842c716bd88164d74ae7c95"
+   "rows": 4253,
+   "sha256": "d69842c6c8f56614e505a866ebd42601cd4b79a6c2716598a6d74b15c213838b"
   },
   {
    "symbol": "KLAC",
    "path": "market/KLAC.parquet",
    "first_date": "2007-01-03",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": null,
-   "rows": 5006,
-   "sha256": "3ea096ed46547732995b910dfafc9b24202993346532634d1c011606d025c741"
+   "rows": 5007,
+   "sha256": "d1bb9965802dd351da16e11e8265a3b74c18fb464b582a11c4dc74d93ddd060f"
   },
   {
    "symbol": "PLTR",
    "path": "market/PLTR.parquet",
    "first_date": "2020-09-30",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": null,
-   "rows": 1546,
-   "sha256": "13462f77810d145594effaf20ac77be8123ba4c23d1f520937452eca3966509b"
+   "rows": 1547,
+   "sha256": "207c021b067bff3409ec087af64736c885ca6c02bbd792dda267e2fc811a4b74"
   },
   {
    "symbol": "IREN",
    "path": "market/IREN.parquet",
    "first_date": "2021-11-17",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": null,
-   "rows": 1260,
-   "sha256": "3d19fa26c5ed865c00326b3cd74bfb7c3302c88e15d0e4d3026d1092833ffad6"
+   "rows": 1261,
+   "sha256": "af037c560caf6c36aa846cd5d12c56637862fb9a3ca77b9a87d53c0292c4968f"
   },
   {
    "symbol": "VRT",
    "path": "market/VRT.parquet",
    "first_date": "2020-02-07",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": "2020-02-07",
-   "rows": 1709,
-   "sha256": "2c1c74a4d825893d6afb6050b0b697f9d006ca6a36e69b8c3180e067126a2070"
+   "rows": 1710,
+   "sha256": "2d1527ac84423cbbd4a23ed96a03c61c4c577ac79f3772091a668085ea5d3832"
   },
   {
    "symbol": "SPCX",
    "path": "market/SPCX.parquet",
    "first_date": "2026-06-12",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": null,
-   "rows": 115,
-   "sha256": "437a814b83bdb72f7dfa7e8ee34d1fd7345b4eab22263de0c5d0a09a75dfcb01"
+   "rows": 116,
+   "sha256": "db16886703ad29505bdd4e374792839b72747a0700de6baa6f44730ea391e7ba"
   },
   {
    "symbol": "COHR",
    "path": "market/COHR.parquet",
    "first_date": "2007-01-03",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": null,
-   "rows": 5006,
-   "sha256": "dbfc56b3c0829450286a06c133a5ec710301e65acaaf3ae9c656845b2d6d6d70"
+   "rows": 5007,
+   "sha256": "870e30c8403d5e9a03a04e3e916e4bf17c2e2d6c009842858ac79b02a81362d1"
   },
   {
    "symbol": "CBRS",
    "path": "market/CBRS.parquet",
    "first_date": "2026-05-14",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": null,
-   "rows": 135,
-   "sha256": "c96a8992ddffdf3b59c8cb2db3ef2d7459643f1b1b085526bb538ce410a28783"
+   "rows": 136,
+   "sha256": "8d7334c3592f346776ed8deddb745b5c57be2d09f0a06fc3bc3428ba7399fee6"
   },
   {
    "symbol": "AMD",
    "path": "market/AMD.parquet",
    "first_date": "2015-01-02",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": null,
-   "rows": 2992,
-   "sha256": "94f26339f6d40d75fd5f388fc52ca6c1ea312269c073a4a1276db61cc0e726fb"
+   "rows": 2993,
+   "sha256": "0603cf127a4aa9ef6d2b9fbbade46e6c4e85e3d36186eafdcdc521f803438873"
   },
   {
    "symbol": "CRDO",
    "path": "market/CRDO.parquet",
    "first_date": "2022-01-27",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": null,
-   "rows": 1212,
-   "sha256": "5f8c991ecdc15bb203ae5b5342ed5b9794d25b8ec66c114bdcac29cddcf73d2e"
+   "rows": 1213,
+   "sha256": "6f7035381e14c3094718adf100c528fe9225236a93d65272aad8b64e30d59570"
   },
   {
    "symbol": "TSEM",
    "path": "market/TSEM.parquet",
    "first_date": "2007-01-03",
-   "last_date": "2026-11-24",
+   "last_date": "2026-11-25",
    "usable_from": null,
-   "rows": 5005,
-   "sha256": "39647f584620f2ad9e0579d5680500e379b8fc965cab37347b1486012900b0b9"
+   "rows": 5006,
+   "sha256": "47e3c1418bc3e3206484a0f3d394126df0cc9f3f39a0d962bb32deb494099e22"
   }
  ]
 }
