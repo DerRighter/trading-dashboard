@@ -2,7 +2,7 @@
 
 export type Ccy = "usd" | "eur";
 export type StrategyKind = "benchmark" | "strategy";
-export type Split = "train" | "validation";
+export type Split = "train" | "exploration" | "control" | "validation";
 export type Frequency = "daily" | "weekly";
 export const BENCHMARKS = ["bh", "bh_dca", "ma200_long_cash"] as const;
 export type BenchmarkId = (typeof BENCHMARKS)[number];
@@ -56,7 +56,7 @@ export interface TrialsFile {
   basis: string;
   trials: Counts;
   checks: Counts;
-  trials_by_split: { train: Counts; validation: Counts };
+  trials_by_split: { train: Counts; validation: Counts; exploration?: Counts; control?: Counts };
 }
 
 export interface Perf {

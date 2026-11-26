@@ -53,16 +53,18 @@ export function TrialsBadge({ strategy, trials }: { strategy: string; trials: Tr
   const n = trials.trials[strategy] ?? 0;
   const k = trials.checks[strategy] ?? 0;
   return (
-    <span className="badge trials" title={`${trials.basis}\nSplit train : ${trials.trials_by_split.train[strategy] ?? 0} · validation : ${trials.trials_by_split.validation[strategy] ?? 0}`}>
+    <span className="badge trials" title={`${trials.basis}\nPar split : ${SPLITS.map((s) => `${s} ${trials.trials_by_split[s]?.[strategy] ?? 0}`).join(" · ")}`}>
       {n} essai{n > 1 ? "s" : ""}{k ? ` (+${k} contrôle${k > 1 ? "s" : ""})` : ""}
     </span>
   );
 }
 
+const SPLITS = ["train", "exploration", "control", "validation"] as const;
+
 export function SplitBadge({ split }: { split: string }) {
-  return split === "validation"
-    ? <span className="badge validation">VALIDATION</span>
-    : <span className="badge train">train</span>;
+  if (split === "validation") return <span className="badge validation">VALIDATION</span>;
+  if (split === "control") return <span className="badge control">CONTRÔLE 2017-2021</span>;
+  return <span className="badge train">{split}</span>;
 }
 
 export function EligibilityBadge({ run }: { run: IndexRun }) {

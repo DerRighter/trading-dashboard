@@ -46,6 +46,7 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-sp
   border: 1px solid var(--border); color: var(--muted); white-space: nowrap; margin-right: 4px; }
 .badge.trials { color: var(--accent); border-color: var(--accent); }
 .badge.validation { background: var(--warn); color: var(--surface); border-color: var(--warn); font-weight: 700; }
+.badge.control { color: var(--warn); border-color: var(--warn); font-weight: 700; }
 .badge.ok { color: var(--pos); border-color: var(--pos); }
 .badge.ko { color: var(--neg); border-color: var(--neg); }
 .validation-frame { border-left: 6px solid var(--warn); padding-left: 10px;
