@@ -1,0 +1,65 @@
+{
+ "run_id": "20261126T143011Z_donchian_breakout_QQQ_9e9156b3",
+ "schema_version": 2,
+ "strategy_id": "donchian_breakout",
+ "strategy_kind": "strategy",
+ "params": {
+  "mode": "long_cash",
+  "entry_n": 55,
+  "exit_m": 10,
+  "regime_filter": true
+ },
+ "mode": "long_cash",
+ "symbol": "QQQ",
+ "universe": {
+  "id": "qqq@v1",
+  "name": "qqq",
+  "version": 1,
+  "tax_regime": "cto"
+ },
+ "regime": {
+  "id": "ma200",
+  "version": 2,
+  "regime_version": "ma200-v2-324f48d33452"
+ },
+ "period": {
+  "start": "2008-01-01",
+  "end": "2016-12-31",
+  "first_session": "2008-01-02",
+  "last_session": "2016-12-30"
+ },
+ "split": "exploration",
+ "git_sha": "fd3868d75864cf4ebbf67515f4cb6560ded7771e",
+ "git_dirty": false,
+ "data_hash": "e1b08ec10a7fb0819bbaa915df003b590ff5c7055972dbf19d4d6a44eeb917e3",
+ "origin": "sweep",
+ "sweep_id": "20261126T143009Z_donchian_breakout_49f34e24",
+ "created_at": "2026-11-26T14:30:11.755457+00:00",
+ "duration_s": 0.391,
+ "currency": {
+  "account": "USD",
+  "investor": "EUR",
+  "fx_symbol": "EURUSD",
+  "rule": "EUR = USD / EURUSD à chaque date"
+ },
+ "costs": {
+  "commission_bps": 1.0,
+  "commission_min_usd": 1.0,
+  "slippage_bps": 2.0
+ },
+ "tax": {
+  "regime": "cto",
+  "mode": "realized_yearly",
+  "rate": 0.314,
+  "loss_carryforward_years": 10,
+  "pea_social_rate": 0.186,
+  "pea_exemption_years": 5,
+  "label": "estimation pour comparaison, pas un calcul fiscal"
+ },
+ "equity_frequency": "daily",
+ "engine": {
+  "execution": "signal à la clôture de J, exécution à l'ouverture de J+1",
+  "initial_eur": 10000.0,
+  "research_config_version": 1
+ }
+}
