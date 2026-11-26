@@ -1,10 +1,10 @@
 {
- "schema_version": 1,
+ "schema_version": 2,
  "results_schema_version": 2,
- "generated_at": "2026-11-25T14:22:45+00:00",
+ "generated_at": "2026-11-26T09:49:34+00:00",
  "source": {
   "repo": "trading-bot",
-  "sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b"
+  "sha": "4241256b49fb6f51b7b8c7863717cf146ffa22a9"
  },
  "runs": [
   {
@@ -29,6 +29,27 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "799922a7bc1ef0890a1d70eefb0f852f44ad126623b825de7abf51837e698ca4",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.16784589060804,
+     "max_drawdown": -0.50060375532524
+    },
+    "eur_gross": {
+     "cagr": 0.18950896013554486,
+     "max_drawdown": -0.412298269852464
+    },
+    "eur_net": {
+     "cagr": 0.16118229612057466,
+     "max_drawdown": -0.412298269852464
+    },
+    "usd_net": {
+     "cagr": 0.14003510542425457,
+     "max_drawdown": -0.50060375532524
+    }
+   },
+   "trades_per_year": 0.07144953051643192,
+   "eligible": null,
    "files": {
     "equity.parquet": "61a2d03548584d4961087cb018e305adf2026c4bf7c84e6690b79fc245347063",
     "manifest.json": "e558b1344e0b4bd9f91d1d7cae9087b27333c86968edded8b23b99079ff36baf",
@@ -59,6 +80,24 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "799922a7bc1ef0890a1d70eefb0f852f44ad126623b825de7abf51837e698ca4",
+   "has_flows": true,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.16719212826605112,
+     "max_drawdown": -0.5028522698901099
+    },
+    "eur_gross": {
+     "cagr": 0.1888430707661939,
+     "max_drawdown": -0.41533111200344375
+    },
+    "eur_net": {
+     "cagr": 0.16310471591376063,
+     "max_drawdown": -0.41533111200344375
+    },
+    "usd_net": null
+   },
+   "trades_per_year": 12.003521126760564,
+   "eligible": null,
    "files": {
     "equity.parquet": "c6e0ce2cb1c7ba66d39bb1f8ee5a37d4c864c3c2368bac0e7dc53f6021fb2071",
     "manifest.json": "5f03c9f13ac36d02928dfeaa60069d2d4b875c1d62f45f48f309be57e27c58c8",
@@ -88,6 +127,27 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "799922a7bc1ef0890a1d70eefb0f852f44ad126623b825de7abf51837e698ca4",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.10930143577064588,
+     "max_drawdown": -0.26183522562274864
+    },
+    "eur_gross": {
+     "cagr": 0.1298785293095439,
+     "max_drawdown": -0.2822755284816808
+    },
+    "eur_net": {
+     "cagr": 0.0948229761701398,
+     "max_drawdown": -0.3624036548755598
+    },
+    "usd_net": {
+     "cagr": 0.07488430647707522,
+     "max_drawdown": -0.34424534634175374
+    }
+   },
+   "trades_per_year": 1.3575410798122065,
+   "eligible": null,
    "files": {
     "equity.parquet": "1ceb90bac576d06f072bf0c1b1b5ddba629d1d87b6b8d4af99b9a07161916e21",
     "manifest.json": "56a55f5b5c7bef0f373703eb0d00ca60762fb7ed190db4e92a06c756972e393a",
@@ -117,6 +177,27 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "06174a9faa9959621b0c372183cf86d21b2cab552a6af3c7707e99821fe17ae4",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.1637314198196831,
+     "max_drawdown": -0.6287493337308319
+    },
+    "eur_gross": {
+     "cagr": 0.18531816757607622,
+     "max_drawdown": -0.5782867564359602
+    },
+    "eur_net": {
+     "cagr": 0.15725349333588468,
+     "max_drawdown": -0.5782867564359602
+    },
+    "usd_net": {
+     "cagr": 0.13617785311184916,
+     "max_drawdown": -0.6287493337308319
+    }
+   },
+   "trades_per_year": 0.07144953051643192,
+   "eligible": null,
    "files": {
     "equity.parquet": "0e1d02084a5f949342ba520e097f7ac7ed0702fc57433b9553698d6dd7087f81",
     "manifest.json": "fe62f024ffc375aa432ea996bbfa323a40272445f8289efea1ede1edd715dc8e",
@@ -147,6 +228,24 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "06174a9faa9959621b0c372183cf86d21b2cab552a6af3c7707e99821fe17ae4",
+   "has_flows": true,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.16306361249943535,
+     "max_drawdown": -0.6304874112841791
+    },
+    "eur_gross": {
+     "cagr": 0.18463797269979354,
+     "max_drawdown": -0.5802610837279589
+    },
+    "eur_net": {
+     "cagr": 0.158166959927587,
+     "max_drawdown": -0.5802610837279589
+    },
+    "usd_net": null
+   },
+   "trades_per_year": 12.003521126760564,
+   "eligible": null,
    "files": {
     "equity.parquet": "81825854bb156ac5548381997c0fbf4daaa24afdbeb2828da52f6a4f858ee4cd",
     "manifest.json": "e9e85320ba0ad9d601c456d56550892bc4cc725ed086bce1e5095d33c6929f1a",
@@ -176,6 +275,27 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "06174a9faa9959621b0c372183cf86d21b2cab552a6af3c7707e99821fe17ae4",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.12136470151959289,
+     "max_drawdown": -0.31343085314627517
+    },
+    "eur_gross": {
+     "cagr": 0.1421655637652619,
+     "max_drawdown": -0.35450943988470207
+    },
+    "eur_net": {
+     "cagr": 0.1101519289641586,
+     "max_drawdown": -0.35450943988470207
+    },
+    "usd_net": {
+     "cagr": 0.08993409183201728,
+     "max_drawdown": -0.33623566660899107
+    }
+   },
+   "trades_per_year": 1.1431924882629108,
+   "eligible": null,
    "files": {
     "equity.parquet": "8a5d696186623e7b062645f29cc805228b939bb8e927aed3467562e46e29e348",
     "manifest.json": "50112fda70eede6bc6c9fec7974d53ad682e64a87732e4123d90b8ff0212f5ca",
@@ -205,6 +325,27 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "ca914c1049c24b0c13ed2336bed0a972704c39b017536a94c01a7864afc6e44e",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.29406250760155306,
+     "max_drawdown": -0.5906128776965834
+    },
+    "eur_gross": {
+     "cagr": 0.31806684438995814,
+     "max_drawdown": -0.5162670191011298
+    },
+    "eur_net": {
+     "cagr": 0.2839234681721494,
+     "max_drawdown": -0.5162670191011298
+    },
+    "usd_net": {
+     "cagr": 0.26054094286873375,
+     "max_drawdown": -0.5906128776965834
+    }
+   },
+   "trades_per_year": 0.07144953051643192,
+   "eligible": null,
    "files": {
     "equity.parquet": "9a171edc13ea4d468865d58c057dae8c6ce44ade9e04db1564fe1a3ef3fcda0e",
     "manifest.json": "c7873bf1a87b2704ee4ca2e044314943c586738bc81f15609addd426b10662a8",
@@ -235,6 +376,24 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "ca914c1049c24b0c13ed2336bed0a972704c39b017536a94c01a7864afc6e44e",
+   "has_flows": true,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.2933845426546744,
+     "max_drawdown": -0.5925047352336628
+    },
+    "eur_gross": {
+     "cagr": 0.31737630346717416,
+     "max_drawdown": -0.5185024433145209
+    },
+    "eur_net": {
+     "cagr": 0.2844059970879407,
+     "max_drawdown": -0.5185024433145209
+    },
+    "usd_net": null
+   },
+   "trades_per_year": 12.003521126760564,
+   "eligible": null,
    "files": {
     "equity.parquet": "64c4e6214dd8cca241df816f0b1f779c5703e0fa093c077171b9c833144c24e2",
     "manifest.json": "e903b9cff4acffbc8e6104bc70f80f1e1ae6f26c1ff8669ef313a7af6ffacb14",
@@ -264,6 +423,27 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "ca914c1049c24b0c13ed2336bed0a972704c39b017536a94c01a7864afc6e44e",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.2289510804838033,
+     "max_drawdown": -0.387349621539676
+    },
+    "eur_gross": {
+     "cagr": 0.2517476266004841,
+     "max_drawdown": -0.30912352100298857
+    },
+    "eur_net": {
+     "cagr": 0.18937284114106046,
+     "max_drawdown": -0.3983050664006913
+    },
+    "usd_net": {
+     "cagr": 0.1677122505820543,
+     "max_drawdown": -0.49542152192748423
+    }
+   },
+   "trades_per_year": 1.3575410798122065,
+   "eligible": null,
    "files": {
     "equity.parquet": "da7219bebfa106902c84f703b84f2d16fc0e09ae9d5aa7318e34f57740ef9486",
     "manifest.json": "3593a7720b27cf26f36bd23a08a29d023c7b438d4835fb1b7747765015361b8c",
@@ -293,6 +473,27 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "b82926b37f424f4fef8f311c4f1e01b48ba35de9c058dea4c9da9ec2266d67ef",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.1458305323179543,
+     "max_drawdown": -0.48039757040309194
+    },
+    "eur_gross": {
+     "cagr": 0.16708522584213048,
+     "max_drawdown": -0.4205880784293684
+    },
+    "eur_net": {
+     "cagr": 0.14025071763912278,
+     "max_drawdown": -0.4205880784293684
+    },
+    "usd_net": {
+     "cagr": 0.1194847281402378,
+     "max_drawdown": -0.48039757040309194
+    }
+   },
+   "trades_per_year": 0.07144953051643192,
+   "eligible": null,
    "files": {
     "equity.parquet": "2f8f27ce2cb23a6d11c918be6d0e3c0a93a3dfb950dd31edc4856e0486f6d142",
     "manifest.json": "372bd54d6771410b5ec2c3840a0a39dea19ab4a16cae8e501c7c9a554426febe",
@@ -323,6 +524,24 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "b82926b37f424f4fef8f311c4f1e01b48ba35de9c058dea4c9da9ec2266d67ef",
+   "has_flows": true,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.1451829476228319,
+     "max_drawdown": -0.4806335747436016
+    },
+    "eur_gross": {
+     "cagr": 0.16642562871249966,
+     "max_drawdown": -0.4206823697866462
+    },
+    "eur_net": {
+     "cagr": 0.1435895076545548,
+     "max_drawdown": -0.4206823697866462
+    },
+    "usd_net": null
+   },
+   "trades_per_year": 12.003521126760564,
+   "eligible": null,
    "files": {
     "equity.parquet": "5872bdb1e5bd31ec896519a0ea85980dcafabb46dc88ebaa20569738c4a6faed",
     "manifest.json": "6dc711089b7579a12168b36e3f0b32980af438e355fc56dd0a6f7b6f5ca25600",
@@ -352,6 +571,27 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "b82926b37f424f4fef8f311c4f1e01b48ba35de9c058dea4c9da9ec2266d67ef",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.00921586632903515,
+     "max_drawdown": -0.48736861342175
+    },
+    "eur_gross": {
+     "cagr": 0.027936412983665226,
+     "max_drawdown": -0.5109647013673693
+    },
+    "eur_net": {
+     "cagr": 0.026262248528832632,
+     "max_drawdown": -0.5109647013673693
+    },
+    "usd_net": {
+     "cagr": 0.0075721913805459895,
+     "max_drawdown": -0.48736861342175
+    }
+   },
+   "trades_per_year": 1.7147887323943662,
+   "eligible": null,
    "files": {
     "equity.parquet": "206116aeb0cc11712e8969b590e79b7827d8f52f1c7b9661e3b84523dd4ced95",
     "manifest.json": "30f4f8bcd4d181b425bd58c03caf84f9cfe080bcff6d58e0e6ff14d1e1308417",
@@ -381,6 +621,27 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "050d47881a960fbc9dd92447cb87c1b26dd23e38a608a28fbb0bc45361686aa9",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.3201950232231794,
+     "max_drawdown": -0.8333833216691666
+    },
+    "eur_gross": {
+     "cagr": 0.3446841076203173,
+     "max_drawdown": -0.8031252619208985
+    },
+    "eur_net": {
+     "cagr": 0.30963393981019194,
+     "max_drawdown": -0.8031252619208985
+    },
+    "usd_net": {
+     "cagr": 0.2857831811824836,
+     "max_drawdown": -0.8333833216691666
+    }
+   },
+   "trades_per_year": 0.07144953051643192,
+   "eligible": null,
    "files": {
     "equity.parquet": "e090a25dc406a50b71648d6a7a72adbab46923ebc0ec1d99dff8b9cef5d8cf5b",
     "manifest.json": "eabd7c86f500574adafc80dad9d741ffa929cc52eec1b92f4c2a09ca27586a7e",
@@ -411,6 +672,24 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "050d47881a960fbc9dd92447cb87c1b26dd23e38a608a28fbb0bc45361686aa9",
+   "has_flows": true,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.31936602861217955,
+     "max_drawdown": -0.8342397885786883
+    },
+    "eur_gross": {
+     "cagr": 0.34383973549414804,
+     "max_drawdown": -0.8041372656421034
+    },
+    "eur_net": {
+     "cagr": 0.30869321489739465,
+     "max_drawdown": -0.8041372656421034
+    },
+    "usd_net": null
+   },
+   "trades_per_year": 12.003521126760564,
+   "eligible": null,
    "files": {
     "equity.parquet": "5b13789683a80e154782707456f118eb08fb5e4e2ff22eff0568f5c73ddd85ed",
     "manifest.json": "af1a154654fe87f0f978599f86bcbc347aaa0676c89b1428343603b93688c95f",
@@ -440,6 +719,27 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "050d47881a960fbc9dd92447cb87c1b26dd23e38a608a28fbb0bc45361686aa9",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.38921508697510765,
+     "max_drawdown": -0.5498750579475632
+    },
+    "eur_gross": {
+     "cagr": 0.41498446567466485,
+     "max_drawdown": -0.5516380668016769
+    },
+    "eur_net": {
+     "cagr": 0.34019959705771297,
+     "max_drawdown": -0.5723435862436298
+    },
+    "usd_net": {
+     "cagr": 0.3157921835578701,
+     "max_drawdown": -0.5706619937886392
+    }
+   },
+   "trades_per_year": 1.1431924882629108,
+   "eligible": null,
    "files": {
     "equity.parquet": "9f8063cf82d71a0f5f186450c098e9f8441106e446a0f60a059b3a058ffc19f5",
     "manifest.json": "d31ac441e423a25b8c57a6d27d6ea7f0b28a459904511f656775d7077f82f407",
@@ -469,6 +769,27 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "e1495b23c8b9a8c3a4dd2af12a1eb0024005a879ef19c0fef1bee103f3a0ad26",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.23328662166077652,
+     "max_drawdown": -0.6595174262734581
+    },
+    "eur_gross": {
+     "cagr": 0.25616359031497904,
+     "max_drawdown": -0.589040904212938
+    },
+    "eur_net": {
+     "cagr": 0.22441843768965808,
+     "max_drawdown": -0.589040904212938
+    },
+    "usd_net": {
+     "cagr": 0.20211960461200928,
+     "max_drawdown": -0.6595174262734581
+    }
+   },
+   "trades_per_year": 0.07144953051643192,
+   "eligible": null,
    "files": {
     "equity.parquet": "75149179cc39c949ee119a58ec54736c19d6664bfb4105ec6215a384cadff560",
     "manifest.json": "1be523cf796597a4684c01306e6783920fbac6aeb819d97cd7820216cbf7abc8",
@@ -499,6 +820,24 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "e1495b23c8b9a8c3a4dd2af12a1eb0024005a879ef19c0fef1bee103f3a0ad26",
+   "has_flows": true,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.23257994922040948,
+     "max_drawdown": -0.6600555574845732
+    },
+    "eur_gross": {
+     "cagr": 0.25544380938629896,
+     "max_drawdown": -0.5909164525389403
+    },
+    "eur_net": {
+     "cagr": 0.22471017666292603,
+     "max_drawdown": -0.5909164525389403
+    },
+    "usd_net": null
+   },
+   "trades_per_year": 12.003521126760564,
+   "eligible": null,
    "files": {
     "equity.parquet": "3a6a77fc7fa8a25dffa48be67748f74332db54c033bfbb1fa43eb64c12663937",
     "manifest.json": "ddd4e368ea653e98f0848e008f2922e170a50ade8ba042d45b0ecdeb0c59ad55",
@@ -528,6 +867,27 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "e1495b23c8b9a8c3a4dd2af12a1eb0024005a879ef19c0fef1bee103f3a0ad26",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.19287593534876568,
+     "max_drawdown": -0.5010644667778124
+    },
+    "eur_gross": {
+     "cagr": 0.21500330209549756,
+     "max_drawdown": -0.5060759409346092
+    },
+    "eur_net": {
+     "cagr": 0.16272711184614952,
+     "max_drawdown": -0.5060759409346083
+    },
+    "usd_net": {
+     "cagr": 0.14155178731343798,
+     "max_drawdown": -0.5010644667778124
+    }
+   },
+   "trades_per_year": 1.7147887323943662,
+   "eligible": null,
    "files": {
     "equity.parquet": "6d08338fa08cf72e652644c9a317059dab317d2e98c08a390cdaba68e458ed45",
     "manifest.json": "7d2d1526af2a98bf13b2b1488f07eacbd56dad1260652fecaa2e686beb4dfe14",
@@ -557,6 +917,27 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "005d43bb6f9030ce9439623914ad2c2dda9c8b4f324898c3dc21137e0d062086",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.19063345649997476,
+     "max_drawdown": -0.6174999999999999
+    },
+    "eur_gross": {
+     "cagr": 0.21271922616989536,
+     "max_drawdown": -0.520101180438447
+    },
+    "eur_net": {
+     "cagr": 0.1830592090678831,
+     "max_drawdown": -0.520101180438447
+    },
+    "usd_net": {
+     "cagr": 0.16151360095554756,
+     "max_drawdown": -0.6174999999999999
+    }
+   },
+   "trades_per_year": 0.07144953051643192,
+   "eligible": null,
    "files": {
     "equity.parquet": "12741f9b4ddb48f9c37795b968478c335ad55624f18f7adb1735c7bef0249089",
     "manifest.json": "bdc7f71adc98b02251577670ed494500386efc11dc12b73717d7c3ce625d18f9",
@@ -587,6 +968,24 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "005d43bb6f9030ce9439623914ad2c2dda9c8b4f324898c3dc21137e0d062086",
+   "has_flows": true,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.18992306674290105,
+     "max_drawdown": -0.6182099619849649
+    },
+    "eur_gross": {
+     "cagr": 0.211995658969784,
+     "max_drawdown": -0.5209919253234641
+    },
+    "eur_net": {
+     "cagr": 0.1834031608538793,
+     "max_drawdown": -0.5209919253234641
+    },
+    "usd_net": null
+   },
+   "trades_per_year": 12.003521126760564,
+   "eligible": null,
    "files": {
     "equity.parquet": "9028b5c19f52b7a60fe9ac59827eb127f89eace2f21e10cbf2aad513f885cc93",
     "manifest.json": "9a3a8a31f4aaa9df356bd0a6d992c8596bc12a3211f73fa2616e53cef0512806",
@@ -616,6 +1015,27 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "005d43bb6f9030ce9439623914ad2c2dda9c8b4f324898c3dc21137e0d062086",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.13226366120600153,
+     "max_drawdown": -0.5632042096194323
+    },
+    "eur_gross": {
+     "cagr": 0.15326669475129462,
+     "max_drawdown": -0.5212827856883002
+    },
+    "eur_net": {
+     "cagr": 0.12003379283639815,
+     "max_drawdown": -0.5212827856883002
+    },
+    "usd_net": {
+     "cagr": 0.09963598942295837,
+     "max_drawdown": -0.5632042096194323
+    }
+   },
+   "trades_per_year": 1.929137323943662,
+   "eligible": null,
    "files": {
     "equity.parquet": "7a0946b76b46f7aaf7bca89731e35d08cabc2ab98446107510497b6c0f650206",
     "manifest.json": "289777d659e96148c42fea22db8f4ea3dc2209cb6f0ae82b00a643a2cd050c27",
@@ -645,6 +1065,27 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "ab452da768010fa71e9ad83813278691a7c7a968a2959c323a70e5f31c7a8f6b",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.21916463026555766,
+     "max_drawdown": -0.6797835713329293
+    },
+    "eur_gross": {
+     "cagr": 0.24177964168385846,
+     "max_drawdown": -0.6227144718549396
+    },
+    "eur_net": {
+     "cagr": 0.21067683151226335,
+     "max_drawdown": -0.6227144718549396
+    },
+    "usd_net": {
+     "cagr": 0.18862825747428413,
+     "max_drawdown": -0.6797835713329293
+    }
+   },
+   "trades_per_year": 0.07144953051643192,
+   "eligible": null,
    "files": {
     "equity.parquet": "553702954b61c5d551248b21b7612ca767eb0e62496f278a71a90d864eaaf088",
     "manifest.json": "485553420870c5a86916f7eb90a60232243d0959e62d2ca97104d40496d839ea",
@@ -675,6 +1116,24 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "ab452da768010fa71e9ad83813278691a7c7a968a2959c323a70e5f31c7a8f6b",
+   "has_flows": true,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.218466744196381,
+     "max_drawdown": -0.6812609075956652
+    },
+    "eur_gross": {
+     "cagr": 0.2410688101100058,
+     "max_drawdown": -0.6244550995749296
+    },
+    "eur_net": {
+     "cagr": 0.21107854632453105,
+     "max_drawdown": -0.6244550995749296
+    },
+    "usd_net": null
+   },
+   "trades_per_year": 12.003521126760564,
+   "eligible": null,
    "files": {
     "equity.parquet": "9f41657f9d33494df126b0649b14f8921401110f9ec2deaa14c93dc050ca67d8",
     "manifest.json": "5ada84ac1aad468a1000347cc2ac32d0f4e5d25bc766d10058194df410f93d8d",
@@ -704,6 +1163,27 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "ab452da768010fa71e9ad83813278691a7c7a968a2959c323a70e5f31c7a8f6b",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.142696466596258,
+     "max_drawdown": -0.3328159412306544
+    },
+    "eur_gross": {
+     "cagr": 0.16389302446728093,
+     "max_drawdown": -0.34068576887232394
+    },
+    "eur_net": {
+     "cagr": 0.12519759994566804,
+     "max_drawdown": -0.3406857688723228
+    },
+    "usd_net": {
+     "cagr": 0.10470575443907637,
+     "max_drawdown": -0.34782180978529276
+    }
+   },
+   "trades_per_year": 1.5718896713615025,
+   "eligible": null,
    "files": {
     "equity.parquet": "9aa3bf72411495d884db0284ce920e22d5d201e75182db73b432dafbd116358a",
     "manifest.json": "27bb6684199e314cb4b23c9cb48e0501d20d75417f56c72d1a78d49ad713981d",
@@ -733,6 +1213,27 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "edbc8e802331e747c6a612a5553855affbd69accc1c51a1c63ed9c30b581e511",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.11334726585270505,
+     "max_drawdown": -0.6817988969028428
+    },
+    "eur_gross": {
+     "cagr": 0.13399940790534104,
+     "max_drawdown": -0.6283154263965436
+    },
+    "eur_net": {
+     "cagr": 0.10986571889370933,
+     "max_drawdown": -0.6283154263965436
+    },
+    "usd_net": {
+     "cagr": 0.08965309415496914,
+     "max_drawdown": -0.6817988969028428
+    }
+   },
+   "trades_per_year": 0.07144953051643192,
+   "eligible": null,
    "files": {
     "equity.parquet": "943bb3d7c7990cacc0670ea70f090b30b82bde74fa10ea95a6dc209baf07ca92",
     "manifest.json": "6bf4959c2836dda55b73dc3bc16cba46b9f571bb51620af75c17f1707bb594c8",
@@ -763,6 +1264,24 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "edbc8e802331e747c6a612a5553855affbd69accc1c51a1c63ed9c30b581e511",
+   "has_flows": true,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.11269182345448359,
+     "max_drawdown": -0.6821894792448548
+    },
+    "eur_gross": {
+     "cagr": 0.13333180731539573,
+     "max_drawdown": -0.6287716580998097
+    },
+    "eur_net": {
+     "cagr": 0.1126845241938692,
+     "max_drawdown": -0.6287716580998097
+    },
+    "usd_net": null
+   },
+   "trades_per_year": 12.003521126760564,
+   "eligible": null,
    "files": {
     "equity.parquet": "e6d97ee2c15d0f03f65e44ffdbf7cc3c6c63e950753e7f4634c007e6780bf57a",
     "manifest.json": "ec9bd1a09fc8fc1ca43db53cc7ca48b33d09a91d7838b8ee97c4be5bca4fd97e",
@@ -792,6 +1311,27 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "edbc8e802331e747c6a612a5553855affbd69accc1c51a1c63ed9c30b581e511",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.013428213170249226,
+     "max_drawdown": -0.7514920323753707
+    },
+    "eur_gross": {
+     "cagr": 0.03222689715723748,
+     "max_drawdown": -0.7493023667175654
+    },
+    "eur_net": {
+     "cagr": 0.01749689829948009,
+     "max_drawdown": -0.7540462232301701
+    },
+    "usd_net": {
+     "cagr": -0.0010335262627449993,
+     "max_drawdown": -0.7517403149023586
+    }
+   },
+   "trades_per_year": 2.3578345070422535,
+   "eligible": null,
    "files": {
     "equity.parquet": "9ff87cf9774ab9ad7c0eff4830adc98f6e20a28ce7fb101f3480b66113d9516a",
     "manifest.json": "30ac96a84f5a1a5e28e3fd2177d3121bc0bb43c301dfb6a6d974446f36e3a5b6",
@@ -821,6 +1361,27 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "cbb59fe9e353e2f8dd85f494de790e735646ab976f7a61cae3c04f59bab12a5e",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.047266127928682566,
+     "max_drawdown": -0.9310325604731002
+    },
+    "eur_gross": {
+     "cagr": 0.066692491565846,
+     "max_drawdown": -0.9278092556344606
+    },
+    "eur_net": {
+     "cagr": 0.051049029941584445,
+     "max_drawdown": -0.9278092556344606
+    },
+    "usd_net": {
+     "cagr": 0.031907561507546145,
+     "max_drawdown": -0.9310325604731002
+    }
+   },
+   "trades_per_year": 0.07144953051643192,
+   "eligible": null,
    "files": {
     "equity.parquet": "aa69c916d1b7d949111f0ed206145e66578587be1078995a5d06652bed8208a5",
     "manifest.json": "f69a714c02d9c98462dd328a7fb57f381cd96e826d460ff47af6eaf3b30f808b",
@@ -851,6 +1412,24 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "cbb59fe9e353e2f8dd85f494de790e735646ab976f7a61cae3c04f59bab12a5e",
+   "has_flows": true,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.04657118319523734,
+     "max_drawdown": -0.93132657742604
+    },
+    "eur_gross": {
+     "cagr": 0.06598465588831415,
+     "max_drawdown": -0.9281170139452583
+    },
+    "eur_net": {
+     "cagr": 0.046007428425908437,
+     "max_drawdown": -0.9281170139452583
+    },
+    "usd_net": null
+   },
+   "trades_per_year": 12.003521126760564,
+   "eligible": null,
    "files": {
     "equity.parquet": "1ce7e275e44a6b97e6c013e2b45cfc6db56c2f783a470e3e0f841fc1084326ab",
     "manifest.json": "e5e238538adb56db65668e53b31f0c848caba5eeaaac82785723436102b082c6",
@@ -880,6 +1459,27 @@
    "equity_frequency": "daily",
    "git_sha": "86f50e9e47b0601bd85c18be5fcd7d95e180052b",
    "data_hash": "cbb59fe9e353e2f8dd85f494de790e735646ab976f7a61cae3c04f59bab12a5e",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.20878214738089373,
+     "max_drawdown": -0.5464638833213383
+    },
+    "eur_gross": {
+     "cagr": 0.23120456793561783,
+     "max_drawdown": -0.5455730452433456
+    },
+    "eur_net": {
+     "cagr": 0.17310142236882942,
+     "max_drawdown": -0.6603837300353927
+    },
+    "usd_net": {
+     "cagr": 0.1517371632272302,
+     "max_drawdown": -0.6610494984323214
+    }
+   },
+   "trades_per_year": 1.85768779342723,
+   "eligible": null,
    "files": {
     "equity.parquet": "8300b9f013a992fe96563b0e9a6a7e43f1eb8ed3eaa551bbf48e053a34a0a1f4",
     "manifest.json": "951fb3076fbe51aedb06966a3180a2d862d743ac6d0b51d149f67b262c3b7b0f",
