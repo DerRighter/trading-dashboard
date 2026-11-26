@@ -1,0 +1,230 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-11-26T09:54:20+00:00",
+ "source": {
+  "repo": "trading-bot",
+  "sha": "417c277aa6f7d0e8962b0c10e8da901999e07993"
+ },
+ "basis": "cours seuls, aucune stratégie",
+ "regime_version": "ma200-v2-324f48d33452",
+ "train_period": {
+  "train_start": "2008-01-01",
+  "train_end": "2021-12-31"
+ },
+ "columns": [
+  "date",
+  "index_usd",
+  "index_eur",
+  "ma200_index",
+  "regime"
+ ],
+ "symbols": [
+  {
+   "symbol": "QQQ",
+   "path": "market/QQQ.parquet",
+   "first_date": "2007-01-03",
+   "last_date": "2026-11-24",
+   "usable_from": null,
+   "rows": 5006,
+   "sha256": "94bca2e0aefe3e7d2a0a1204cc423b1f30112cb91047279199aa8208772c78d1"
+  },
+  {
+   "symbol": "URTH",
+   "path": "market/URTH.parquet",
+   "first_date": "2013-10-01",
+   "last_date": "2026-11-24",
+   "usable_from": "2013-10-01",
+   "rows": 3308,
+   "sha256": "3f81febdb393f9f4f769308afaa90cdba624c56e827be5e27623d9fbea619651"
+  },
+  {
+   "symbol": "GOOGL",
+   "path": "market/GOOGL.parquet",
+   "first_date": "2007-01-03",
+   "last_date": "2026-11-24",
+   "usable_from": null,
+   "rows": 5006,
+   "sha256": "612db08af075f2292dc21b7099db8454e71c663cd2839bab3b8226b416704319"
+  },
+  {
+   "symbol": "ASML",
+   "path": "market/ASML.parquet",
+   "first_date": "2007-01-03",
+   "last_date": "2026-11-24",
+   "usable_from": null,
+   "rows": 5006,
+   "sha256": "279cfdc4f532ebc80316e47356cb1d427618849dfbb233113c67157bca487941"
+  },
+  {
+   "symbol": "QCOM",
+   "path": "market/QCOM.parquet",
+   "first_date": "2007-01-03",
+   "last_date": "2026-11-24",
+   "usable_from": null,
+   "rows": 5006,
+   "sha256": "daebef72db54e0347b35bad3d41b72ee8cf5d8c597b0ba18bd9e2aeccef0fede"
+  },
+  {
+   "symbol": "SNDK",
+   "path": "market/SNDK.parquet",
+   "first_date": "2025-02-13",
+   "last_date": "2026-11-24",
+   "usable_from": null,
+   "rows": 448,
+   "sha256": "9ae2368ec0e2a289f19dfb7f46c1f84e6c871ee5f9c42d4f8426c1291e0fcf35"
+  },
+  {
+   "symbol": "CRWV",
+   "path": "market/CRWV.parquet",
+   "first_date": "2025-03-28",
+   "last_date": "2026-11-24",
+   "usable_from": null,
+   "rows": 418,
+   "sha256": "723e41b9e9c440ccc887573b596af98f13fefcfa799c9923b3c24b793d302d00"
+  },
+  {
+   "symbol": "NBIS",
+   "path": "market/NBIS.parquet",
+   "first_date": "2011-05-24",
+   "last_date": "2026-11-24",
+   "usable_from": null,
+   "rows": 3900,
+   "sha256": "65429926f660ce064eef706b169a62df5300d29de89eaa31559c750863fb2e44"
+  },
+  {
+   "symbol": "LITE",
+   "path": "market/LITE.parquet",
+   "first_date": "2015-07-23",
+   "last_date": "2026-11-24",
+   "usable_from": null,
+   "rows": 2853,
+   "sha256": "cb11143f6ccb8ce4c634c22129df52761c514d10f3c3000349adeda359847410"
+  },
+  {
+   "symbol": "NVDA",
+   "path": "market/NVDA.parquet",
+   "first_date": "2007-01-03",
+   "last_date": "2026-11-24",
+   "usable_from": null,
+   "rows": 5006,
+   "sha256": "62d08752a095eb84e1e20762c7b92d34a3658d3c6727c999376c4f18593c084b"
+  },
+  {
+   "symbol": "LRCX",
+   "path": "market/LRCX.parquet",
+   "first_date": "2007-01-03",
+   "last_date": "2026-11-24",
+   "usable_from": null,
+   "rows": 5006,
+   "sha256": "1d1a2134c621f6c6ebf940500922b0505ca062f1ec7381fdf3eed9c1c98f366c"
+  },
+  {
+   "symbol": "AMAT",
+   "path": "market/AMAT.parquet",
+   "first_date": "2007-01-03",
+   "last_date": "2026-11-24",
+   "usable_from": null,
+   "rows": 5006,
+   "sha256": "6e57d3c0a0c4acd43be1835aded596e5857fd8d26cad31d71c4544ea29dfd68b"
+  },
+  {
+   "symbol": "MU",
+   "path": "market/MU.parquet",
+   "first_date": "2009-12-30",
+   "last_date": "2026-11-24",
+   "usable_from": null,
+   "rows": 4252,
+   "sha256": "112205011948e700644bcc0444088bae0a3cedf50842c716bd88164d74ae7c95"
+  },
+  {
+   "symbol": "KLAC",
+   "path": "market/KLAC.parquet",
+   "first_date": "2007-01-03",
+   "last_date": "2026-11-24",
+   "usable_from": null,
+   "rows": 5006,
+   "sha256": "3ea096ed46547732995b910dfafc9b24202993346532634d1c011606d025c741"
+  },
+  {
+   "symbol": "PLTR",
+   "path": "market/PLTR.parquet",
+   "first_date": "2020-09-30",
+   "last_date": "2026-11-24",
+   "usable_from": null,
+   "rows": 1546,
+   "sha256": "13462f77810d145594effaf20ac77be8123ba4c23d1f520937452eca3966509b"
+  },
+  {
+   "symbol": "IREN",
+   "path": "market/IREN.parquet",
+   "first_date": "2021-11-17",
+   "last_date": "2026-11-24",
+   "usable_from": null,
+   "rows": 1260,
+   "sha256": "3d19fa26c5ed865c00326b3cd74bfb7c3302c88e15d0e4d3026d1092833ffad6"
+  },
+  {
+   "symbol": "VRT",
+   "path": "market/VRT.parquet",
+   "first_date": "2020-02-07",
+   "last_date": "2026-11-24",
+   "usable_from": "2020-02-07",
+   "rows": 1709,
+   "sha256": "2c1c74a4d825893d6afb6050b0b697f9d006ca6a36e69b8c3180e067126a2070"
+  },
+  {
+   "symbol": "SPCX",
+   "path": "market/SPCX.parquet",
+   "first_date": "2026-06-12",
+   "last_date": "2026-11-24",
+   "usable_from": null,
+   "rows": 115,
+   "sha256": "437a814b83bdb72f7dfa7e8ee34d1fd7345b4eab22263de0c5d0a09a75dfcb01"
+  },
+  {
+   "symbol": "COHR",
+   "path": "market/COHR.parquet",
+   "first_date": "2007-01-03",
+   "last_date": "2026-11-24",
+   "usable_from": null,
+   "rows": 5006,
+   "sha256": "dbfc56b3c0829450286a06c133a5ec710301e65acaaf3ae9c656845b2d6d6d70"
+  },
+  {
+   "symbol": "CBRS",
+   "path": "market/CBRS.parquet",
+   "first_date": "2026-05-14",
+   "last_date": "2026-11-24",
+   "usable_from": null,
+   "rows": 135,
+   "sha256": "c96a8992ddffdf3b59c8cb2db3ef2d7459643f1b1b085526bb538ce410a28783"
+  },
+  {
+   "symbol": "AMD",
+   "path": "market/AMD.parquet",
+   "first_date": "2015-01-02",
+   "last_date": "2026-11-24",
+   "usable_from": null,
+   "rows": 2992,
+   "sha256": "94f26339f6d40d75fd5f388fc52ca6c1ea312269c073a4a1276db61cc0e726fb"
+  },
+  {
+   "symbol": "CRDO",
+   "path": "market/CRDO.parquet",
+   "first_date": "2022-01-27",
+   "last_date": "2026-11-24",
+   "usable_from": null,
+   "rows": 1212,
+   "sha256": "5f8c991ecdc15bb203ae5b5342ed5b9794d25b8ec66c114bdcac29cddcf73d2e"
+  },
+  {
+   "symbol": "TSEM",
+   "path": "market/TSEM.parquet",
+   "first_date": "2007-01-03",
+   "last_date": "2026-11-24",
+   "usable_from": null,
+   "rows": 5005,
+   "sha256": "39647f584620f2ad9e0579d5680500e379b8fc965cab37347b1486012900b0b9"
+  }
+ ]
+}
