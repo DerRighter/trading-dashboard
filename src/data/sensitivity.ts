@@ -42,3 +42,15 @@ export function cells(runs: IndexRun[], sel: IndexRun[], metrics: Map<string, Me
   }
   return out;
 }
+
+/** Bornes de l'échelle de couleur de la heatmap. null sans valeur (sélection
+ *  en cours de chargement : Math.min() vaudrait +Infinity et ferait planter
+ *  ECharts) ; une seule valeur distincte : bornes élargies (min < max). */
+export function valueRange(vals: number[]): { min: number; max: number } | null {
+  const v = vals.filter((x) => Number.isFinite(x));
+  if (!v.length) return null;
+  const min = Math.min(...v), max = Math.max(...v);
+  if (max > min) return { min, max };
+  const pad = Math.abs(min) * 1e-6 || 1e-9;
+  return { min: min - pad, max: max + pad };
+}

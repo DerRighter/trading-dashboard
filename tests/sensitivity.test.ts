@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { cells, groupSweeps, paramValues, slice, varyingKeys } from "../src/data/sensitivity";
+import { cells, groupSweeps, paramValues, slice, valueRange, varyingKeys } from "../src/data/sensitivity";
 import type { IndexRun, Metrics } from "../src/data/types";
 import { index } from "./helpers";
 
@@ -37,5 +37,14 @@ describe("sensibilité", () => {
     const c = cells(sw, sel, metrics, "fast", "slow", "eur_gross", "cagr");
     expect(c).toHaveLength(6);
     expect(c).toContainEqual([1, 2, 0.1 + 0.1]);                       // fast 10, slow 100
+  });
+
+  it("échelle de la heatmap : aucune valeur -> null, valeur unique -> bornes élargies", () => {
+    expect(valueRange([])).toBeNull();
+    expect(valueRange([NaN, Infinity])).toBeNull();
+    expect(valueRange([0.1, -0.2, 0.3])).toEqual({ min: -0.2, max: 0.3 });
+    const r = valueRange([0.05, 0.05])!;
+    expect(r.min).toBeLessThan(0.05);
+    expect(r.max).toBeGreaterThan(0.05);
   });
 });

@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { EChart } from "../charts/EChart";
 import { loadMetrics } from "../data/load";
-import { cells, groupSweeps, paramValues, slice, varyingKeys } from "../data/sensitivity";
+import { cells, groupSweeps, paramValues, slice, valueRange, varyingKeys } from "../data/sensitivity";
 import { viewKey } from "../data/series";
 import type { Metrics } from "../data/types";
 import { Loading, NetNotice, Problem, TrialsBadge, useAsync, useIndex } from "../ui/components";
@@ -44,16 +44,20 @@ export function Sensitivity() {
   const build = useCallback((c: ReturnType<typeof themeColors>) => {
     const xs = paramValues(runs, px), ys = paramValues(runs, py);
     const data = cells(runs, selected, metrics.data ?? new Map(), px, py, viewKey(ccy, net), metric);
-    const vals = data.map((cl) => cl[2]);
+    const range = valueRange(data.map((cl) => cl[2]));
     const isPct = METRICS.find((m) => m[0] === metric)![2];
     const f = (v: number) => (isPct ? `${(v * 100).toFixed(1)} %` : v.toFixed(2));
-    return {
-      tooltip: { formatter: (p: { value: [number, number, number] }) =>
-        `${px} = ${xs[p.value[0]]}, ${py} = ${ys[p.value[1]]} : ${f(p.value[2])}` },
+    const axes = {
       grid: { left: 70, right: 20, top: 10, bottom: 70 },
       xAxis: { type: "category", name: px, data: xs, axisLabel: { color: c.muted } },
       yAxis: { type: "category", name: py, data: ys, axisLabel: { color: c.muted } },
-      visualMap: { min: Math.min(...vals), max: Math.max(...vals), orient: "horizontal", left: "center",
+    };
+    if (!range) return { ...axes, series: [] };      // métriques de la sélection en chargement
+    return {
+      tooltip: { formatter: (p: { value: [number, number, number] }) =>
+        `${px} = ${xs[p.value[0]]}, ${py} = ${ys[p.value[1]]} : ${f(p.value[2])}` },
+      ...axes,
+      visualMap: { min: range.min, max: range.max, orient: "horizontal", left: "center",
                    bottom: 0, inRange: { color: [c.neg, c.bg, c.pos] }, textStyle: { color: c.muted },
                    formatter: (v: number) => f(v) },
       series: [{ type: "heatmap", data, label: { show: true, color: c.text,
