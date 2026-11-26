@@ -9,8 +9,12 @@ function run(id: string, params: Record<string, unknown>, symbol = "QQQ"): Index
 }
 
 describe("sensibilité", () => {
-  it("export actuel : aucun sweep (la vue affiche un message)", () => {
-    expect(groupSweeps(index().runs).size).toBe(0);
+  it("sweeps exportés : une stratégie par sweep, paramètres de la grille variables", () => {
+    for (const [id, runs] of groupSweeps(index().runs)) {
+      expect(new Set(runs.map((r) => r.strategy_id)).size, id).toBe(1);
+      expect(runs.every((r) => r.origin === "sweep"), id).toBe(true);
+      expect(varyingKeys(runs).length, id).toBeGreaterThan(0);
+    }
   });
 
   it("heatmap 2 × 3 avec un troisième paramètre fixé", () => {

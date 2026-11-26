@@ -32,8 +32,11 @@ describe("index v2 : métriques de la liste", () => {
       else expect(usdNet.ok && usdNet.value.cagr).toBe(m.views.usd_net.cagr);
     }
   });
-  it("eligible reste null (aucun seuil fixé)", () => {
-    expect(index().runs.every((r) => r.eligible === null)).toBe(true);
+  it("eligible : null pour les benchmarks, booléen pour les stratégies (seuil du critère)", () => {
+    for (const r of index().runs) {
+      if (r.strategy_kind === "benchmark") expect(r.eligible, r.run_id).toBeNull();
+      else expect(typeof r.eligible, r.run_id).toBe("boolean");
+    }
   });
 });
 
