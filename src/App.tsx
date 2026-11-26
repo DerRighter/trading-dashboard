@@ -6,8 +6,9 @@ import { Compare } from "./views/Compare";
 import { Rolling } from "./views/Rolling";
 import { EntryPoint } from "./views/EntryPoint";
 import { Sensitivity } from "./views/Sensitivity";
+import { Market } from "./views/Market";
 
-const TABS: [string, string][] = [["", "Runs"], ["compare", "Comparaison"], ["sensitivity", "Sensibilité"]];
+const TABS: [string, string][] = [["", "Runs"], ["compare", "Comparaison"], ["sensitivity", "Sensibilité"], ["market", "Marché"]];
 
 export function App() {
   const route = useRoute();
@@ -18,6 +19,7 @@ export function App() {
     case "rolling": view = <Rolling id={route.params[0]} />; break;
     case "entry": view = <EntryPoint id={route.params[0]} />; break;
     case "sensitivity": view = <Sensitivity />; break;
+    case "market": view = <Market symbol={route.params[0]} />; break;
     default: view = <RunList />;
   }
   return (
@@ -29,7 +31,7 @@ export function App() {
             <a key={name} href={name ? href(name) : "#/"} className={route.name === name ? "on" : ""}>{label}</a>
           ))}
         </nav>
-        <Controls />
+        <Controls market={route.name === "market"} />
       </header>
       <main>{view}</main>
     </>

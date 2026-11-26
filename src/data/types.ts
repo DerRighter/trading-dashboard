@@ -28,7 +28,16 @@ export interface IndexRun {
   git_sha: string;
   data_hash: string;
   files: Record<string, string>;
-  eligible?: boolean | null;          // absent de index.json v1 : « non fixée »
+  has_flows: boolean;
+  /** CAGR et max DD par vue (copiés de metrics.json) ; usd_net null si apports. */
+  metrics: Record<ViewKey, CagrDd | null>;
+  trades_per_year: number;
+  eligible: boolean | null;           // null : seuil d'éligibilité pas encore fixé
+}
+
+export interface CagrDd {
+  cagr: number;
+  max_drawdown: number;
 }
 
 export interface IndexFile {
@@ -108,6 +117,35 @@ export interface Manifest {
 }
 
 /** Colonnes de equity.parquet (v2), en tableaux parallèles. */
+/** data/market/index.json : vue marché, cours seuls. */
+export interface MarketSymbol {
+  symbol: string;
+  path: string;
+  first_date: string;
+  last_date: string;
+  usable_from: string | null;
+  rows: number;
+  sha256: string;
+}
+export interface MarketIndex {
+  schema_version: number;
+  generated_at: string;
+  source: { repo: string; sha: string };
+  basis: string;
+  regime_version: string;
+  train_period: { train_start: string; train_end: string };
+  columns: string[];
+  symbols: MarketSymbol[];
+}
+/** data/market/<SYMBOL>.parquet en tableaux parallèles. */
+export interface Market {
+  t: number[];
+  index_usd: number[];
+  index_eur: number[];
+  ma200_index: (number | null)[];
+  regime: (number | null)[];
+}
+
 export interface Equity {
   date: Date[];
   t: number[];                        // date en secondes UTC (axe des graphiques)

@@ -10,8 +10,9 @@ describe("garde de version", () => {
     expect(() => checkIndex(index())).not.toThrow();
   });
   it("refuse une version inconnue avec un message clair", () => {
-    expect(() => checkIndex({ schema_version: 2, results_schema_version: 2 })).toThrow(SchemaError);
-    expect(() => checkIndex({ schema_version: 1, results_schema_version: 3 })).toThrow(/v3 inconnu/);
+    expect(() => checkIndex({ schema_version: 1, results_schema_version: 2 })).toThrow(SchemaError);
+    expect(() => checkIndex({ schema_version: 3, results_schema_version: 2 })).toThrow(SchemaError);
+    expect(() => checkIndex({ schema_version: 2, results_schema_version: 3 })).toThrow(/v3 inconnu/);
     expect(() => checkRun("x", { schema_version: 1, equity_frequency: "daily" }, { schema_version: 2 }))
       .toThrow(/schema_version 1/);
     expect(() => checkRun("x", { schema_version: 2, equity_frequency: "monthly" }, { schema_version: 2 }))

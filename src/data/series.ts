@@ -8,7 +8,7 @@
 //   initial USD (l'impôt est une perte, pas un retrait : le TWR télescope) ;
 // - run AVEC apports (bh_dca) : NON reconstructible sans la valeur à
 //   l'ouverture (non exportée) -> combinaison indisponible, jamais approchée.
-import type { Ccy, Equity, IndexRun, Run, ViewKey } from "./types";
+import type { CagrDd, Ccy, Equity, IndexRun, Run, ViewKey } from "./types";
 
 export interface Series {
   t: number[];
@@ -67,7 +67,7 @@ export function monthlyReturns(s: Series): { year: number; month: number; r: num
 }
 
 /** Plages de régime baissier [début, fin] (colonne regime = -1). */
-export function bearZones(eq: Equity): [number, number][] {
+export function bearZones(eq: { t: number[]; regime: (number | null)[] }): [number, number][] {
   const zones: [number, number][] = [];
   let start: number | null = null;
   eq.regime.forEach((r, i) => {
@@ -76,6 +76,15 @@ export function bearZones(eq: Equity): [number, number][] {
   });
   if (start !== null) zones.push([start, eq.t[eq.t.length - 1]]);
   return zones;
+}
+
+/** CAGR / max DD de la liste (index.json v2) pour la vue des contrôles ;
+ *  USD net d'un run avec apports : indisponible, avec sa raison. */
+export function indexMetric(run: IndexRun, ccy: Ccy, net: boolean):
+  { ok: true; value: CagrDd } | { ok: false; reason: string } {
+  const v = run.metrics[viewKey(ccy, net)];
+  if (v) return { ok: true, value: v };
+  return { ok: false, reason: run.has_flows ? USD_NET_FLOWS_REASON : "métrique absente de index.json" };
 }
 
 /** Benchmarks du même symbole, split et période (le plus récent par id). */

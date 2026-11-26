@@ -1,7 +1,8 @@
 // Garde de version : une version inconnue affiche un message, jamais un
 // graphique faux (spec, règles d'affichage).
 
-export const INDEX_SCHEMA = 1;
+export const INDEX_SCHEMA = 2;           // v2 : métriques CAGR / max DD par vue, eligible
+export const MARKET_INDEX_SCHEMA = 1;
 export const RESULTS_SCHEMA = 2;
 export const TRIALS_SCHEMA = 1;
 export const FREQUENCIES = ["daily", "weekly"] as const;
@@ -19,6 +20,17 @@ export function checkIndex(doc: { schema_version?: unknown; results_schema_versi
   if (doc.results_schema_version !== RESULTS_SCHEMA)
     throw new SchemaError(`index.json : schéma de résultats v${String(doc.results_schema_version)} inconnu (supporté : v${RESULTS_SCHEMA}).`);
 }
+
+export function checkMarketIndex(doc: { schema_version?: unknown; columns?: unknown }): void {
+  if (doc.schema_version !== MARKET_INDEX_SCHEMA)
+    throw new SchemaError(`market/index.json : schema_version ${String(doc.schema_version)} inconnue (supportée : ${MARKET_INDEX_SCHEMA}).`);
+  if (JSON.stringify(doc.columns) !== JSON.stringify(MARKET_COLUMNS))
+    throw new SchemaError(`market/index.json : colonnes ${JSON.stringify(doc.columns)} inattendues.`);
+}
+
+/** Vue marché : cours seuls rebasés, aucune colonne de prix. */
+export const MARKET_COLUMNS = ["date", "index_usd", "index_eur", "ma200_index", "regime"] as const;
+export const PRICE_COLUMNS = ["open", "high", "low", "close", "volume"] as const;
 
 export function checkTrials(doc: { schema_version?: unknown }): void {
   if (doc.schema_version !== TRIALS_SCHEMA)

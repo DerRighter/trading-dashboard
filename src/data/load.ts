@@ -2,8 +2,13 @@
 // (et trials.json pour le compteur) ; les fichiers d'un run (manifest,
 // metrics, Parquet) ne sont lus qu'à l'ouverture de ce run.
 import { parquetReadObjects } from "hyparquet";
-import { checkIndex, checkRun, checkTrials, EQUITY_COLUMNS, SchemaError } from "./guards";
-import type { Equity, IndexFile, Manifest, Metrics, Run, Trade, TrialsFile } from "./types";
+import {
+  checkIndex, checkMarketIndex, checkRun, checkTrials, EQUITY_COLUMNS, MARKET_COLUMNS, PRICE_COLUMNS,
+  SchemaError,
+} from "./guards";
+import type {
+  Equity, IndexFile, Manifest, Market, MarketIndex, Metrics, Run, Trade, TrialsFile,
+} from "./types";
 
 export const DATA_URL = `${import.meta.env?.BASE_URL ?? "/"}data/`;
 
@@ -119,6 +124,46 @@ export function loadRun(runId: string, path: string): Promise<Run> {
     })();
     p.catch(() => runCache.delete(runId));
     runCache.set(runId, p);
+  }
+  return p;
+}
+
+// ------------------------------------------------------------ vue marché
+// Cours seuls, aucune stratégie : data/market/ est indépendant des runs.
+
+let marketIndexPromise: Promise<MarketIndex> | null = null;
+export function loadMarketIndex(): Promise<MarketIndex> {
+  marketIndexPromise ??= json<MarketIndex>(`${DATA_URL}market/index.json`).then((d) => {
+    checkMarketIndex(d);
+    return d;
+  });
+  marketIndexPromise.catch(() => { marketIndexPromise = null; });
+  return marketIndexPromise;
+}
+
+export function parseMarket(rows: Row[]): Market {
+  const cols = rows.length ? Object.keys(rows[0]) : [];
+  const priceCols = cols.filter((c) => (PRICE_COLUMNS as readonly string[]).includes(c.toLowerCase()));
+  if (priceCols.length) throw new SchemaError(`vue marché : colonnes de prix refusées ${priceCols.join(", ")}`);
+  const missing = MARKET_COLUMNS.filter((c) => rows.length && !(c in rows[0]));
+  if (missing.length) throw new SchemaError(`vue marché : colonnes absentes ${missing.join(", ")}`);
+  return {
+    t: rows.map((r) => Math.floor((r.date as Date).getTime() / 1000)),
+    index_usd: rows.map((r) => num(r.index_usd)),
+    index_eur: rows.map((r) => num(r.index_eur)),
+    ma200_index: rows.map((r) => numOrNull(r.ma200_index)),
+    regime: rows.map((r) => numOrNull(r.regime)),
+  };
+}
+
+const marketCache = new Map<string, Promise<Market>>();
+export function loadMarket(symbol: string, path: string): Promise<Market> {
+  let p = marketCache.get(symbol);
+  if (!p) {
+    p = fetchOk(`${DATA_URL}${path}`).then((r) => r.arrayBuffer())
+      .then((buf) => readParquet(buf)).then(parseMarket);
+    p.catch(() => marketCache.delete(symbol));
+    marketCache.set(symbol, p);
   }
   return p;
 }

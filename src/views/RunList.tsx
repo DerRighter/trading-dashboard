@@ -1,9 +1,10 @@
 import { useMemo, useState } from "react";
+import { indexMetric } from "../data/series";
 import type { IndexRun } from "../data/types";
 import {
-  EligibilityBadge, FrequencyBadge, Loading, Problem, SplitBadge, TrialsBadge, useIndex,
+  EligibilityBadge, FrequencyBadge, Loading, Problem, SplitBadge, TrialsBadge, pct, useIndex,
 } from "../ui/components";
-import { href } from "../ui/state";
+import { href, useControls } from "../ui/state";
 
 const FILTERS = [
   ["strategy_id", "Stratégie"], ["symbol", "Symbole"], ["mode", "Mode"],
@@ -15,6 +16,8 @@ export const MAX_COMPARE = 6;
 /** Liste des runs : ne lit QUE index.json (et trials.json pour le compteur). */
 export function RunList() {
   const { data, error } = useIndex();
+  const { ccy, net } = useControls();
+  const view = `${ccy.toUpperCase()} ${net ? "net" : "brut"}`;
   const [f, setF] = useState<Partial<Record<FilterKey, string>>>({});
   const [picked, setPicked] = useState<string[]>([]);
 
@@ -66,7 +69,10 @@ export function RunList() {
             <thead>
               <tr>
                 <th></th><th>Stratégie</th><th>Symbole</th><th>Mode</th><th>Split</th>
-                <th>Période</th><th>Univers</th><th>Origine</th><th>Essais</th><th>Éligibilité</th><th>Vues</th>
+                <th>Période</th><th>Univers</th><th>Origine</th>
+                <th className="num" title={`Vue ${view} (contrôles devise et brut/net)`}>CAGR <span className="muted">{view}</span></th>
+                <th className="num" title={`Vue ${view} (contrôles devise et brut/net)`}>Max DD <span className="muted">{view}</span></th>
+                <th>Essais</th><th>Éligibilité</th><th>Vues</th>
               </tr>
             </thead>
             <tbody>
@@ -82,6 +88,7 @@ export function RunList() {
                   <td className="num">{r.first_session} → {r.last_session}</td>
                   <td>{r.universe_id} <span className="muted">({r.tax_regime})</span></td>
                   <td>{r.origin}{r.sweep_id ? <span className="muted"> · {r.sweep_id}</span> : null}</td>
+                  <MetricCells run={r} ccy={ccy} net={net} />
                   <td><TrialsBadge strategy={r.strategy_id} trials={trials} /></td>
                   <td><EligibilityBadge run={r} /></td>
                   <td>
@@ -94,9 +101,16 @@ export function RunList() {
             </tbody>
           </table>
         </div>
-        <p className="muted">Les métriques de performance s'affichent dans le détail de chaque run :
-          la liste ne charge que index.json.</p>
+        <p className="muted">CAGR et max drawdown de la vue {view}, lus dans index.json (copiés de
+          metrics.json) ; le détail de chaque run donne toutes les métriques. USD net d'un run avec
+          apports : indisponible (—).</p>
       </section>
     </>
   );
+}
+
+function MetricCells({ run, ccy, net }: { run: IndexRun; ccy: "usd" | "eur"; net: boolean }) {
+  const m = indexMetric(run, ccy, net);
+  if (!m.ok) return <><td className="num muted" title={m.reason}>—</td><td className="num muted" title={m.reason}>—</td></>;
+  return <><td className="num">{pct(m.value.cagr)}</td><td className="num">{pct(m.value.max_drawdown)}</td></>;
 }
