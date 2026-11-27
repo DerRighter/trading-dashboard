@@ -16,7 +16,8 @@ const VIEWS: [ViewKey, string][] = [["usd_gross", "USD brut"], ["eur_gross", "EU
                                     ["usd_net", "USD net"], ["eur_net", "EUR net"]];
 const MONTHS = ["jan", "fév", "mar", "avr", "mai", "juin", "juil", "aoû", "sep", "oct", "nov", "déc"];
 
-export function RunHeader({ b, children }: { b: Bundle; children?: React.ReactNode }) {
+export function RunHeader({ b, children, local = false }:
+  { b: Bundle; children?: React.ReactNode; local?: boolean }) {
   const { entry, run } = b.main;
   const m = run.manifest;
   return (
@@ -31,11 +32,11 @@ export function RunHeader({ b, children }: { b: Bundle; children?: React.ReactNo
         <span><b>Régime</b> {m.regime.regime_version}</span>
         <span className="muted" title={entry.git_sha}>{m.run_id}</span>
       </div>
-      <p>
+      {!local && <p>
         <a href={href("run", m.run_id)}>détail</a>{" · "}
         <a href={href("rolling", m.run_id)}>fenêtres glissantes</a>{" · "}
         <a href={href("entry", m.run_id)}>point d'entrée</a>
-      </p>
+      </p>}
       {children}
     </section>
   );
@@ -215,18 +216,25 @@ function Allocation({ weights }: { weights: Weights }) {
 
 export function RunDetail({ id }: { id: string }) {
   const { data: b, error } = useRunBundle(id);
+  if (error) return <Problem error={error} />;
+  if (!b) return <Loading what="données du run" />;
+  return <RunDetailView b={b} />;
+}
+
+/** Vue détail d'un run chargé : publié, ou local via l'API (local = true :
+ *  pas de liens vers les vues qui lisent les fichiers publiés). */
+export function RunDetailView({ b, local = false, children }:
+  { b: Bundle; local?: boolean; children?: React.ReactNode }) {
   const { ref } = useControls();
   const { lines, missing, mainReason } = useTwrLines(b);
-  const zones = useMemo(() => (b ? bearZones(b.main.run.equity) : []), [b]);
+  const zones = useMemo(() => bearZones(b.main.run.equity), [b]);
   const dd = useMemo<LineSpec[]>(() => (lines[0] ? [{ ...lines[0], ...drawdown(lines[0]), name: "drawdown" }] : []),
                                     [lines]);
   const scaled = useMemo(() => lines.map((l) => ({ ...l, v: l.v.map((x) => x * 100) })), [lines]);
-  if (error) return <Problem error={error} />;
-  if (!b) return <Loading what="données du run" />;
   const run = b.main.run;
   return (
     <ValidationFrame split={run.manifest.split}>
-      <RunHeader b={b} />
+      <RunHeader b={b} local={local}>{children}</RunHeader>
       <NetNotice />
       <section className="card">
         <h2>Indice TWR (base 100 avant la première séance) vs benchmarks</h2>

@@ -7,11 +7,16 @@ import { Rolling } from "./views/Rolling";
 import { EntryPoint } from "./views/EntryPoint";
 import { Sensitivity } from "./views/Sensitivity";
 import { Market } from "./views/Market";
+import { Launch } from "./views/Launch";
+import { LocalRun } from "./views/LocalRun";
+import { ModeBadge, useLocalApi } from "./ui/local";
 
 const TABS: [string, string][] = [["", "Runs"], ["compare", "Comparaison"], ["sensitivity", "Sensibilité"], ["market", "Marché"]];
 
 export function App() {
   const route = useRoute();
+  const { mode } = useLocalApi();
+  const tabs = mode === "connected" ? [...TABS, ["launch", "Lancer"] as [string, string]] : TABS;
   let view;
   switch (route.name) {
     case "run": view = <RunDetail id={route.params[0]} />; break;
@@ -20,14 +25,17 @@ export function App() {
     case "entry": view = <EntryPoint id={route.params[0]} />; break;
     case "sensitivity": view = <Sensitivity />; break;
     case "market": view = <Market symbol={route.params[0]} />; break;
+    case "launch": view = <Launch />; break;
+    case "local": view = <LocalRun jobId={route.params[0]} />; break;
     default: view = <RunList />;
   }
   return (
     <>
       <header className="top">
         <h1>Backtests swing</h1>
+        <ModeBadge />
         <nav className="tabs">
-          {TABS.map(([name, label]) => (
+          {tabs.map(([name, label]) => (
             <a key={name} href={name ? href(name) : "#/"} className={route.name === name ? "on" : ""}>{label}</a>
           ))}
         </nav>
