@@ -1,10 +1,10 @@
 {
  "schema_version": 3,
  "results_schema_version": 3,
- "generated_at": "2026-11-26T15:55:51+00:00",
+ "generated_at": "2026-11-27T10:08:48+00:00",
  "source": {
   "repo": "trading-bot",
-  "sha": "6f640c071dbe64b217c69859679878de8cfaaa01"
+  "sha": "e6255546237bf3f05914ccd8895854c750119bf8"
  },
  "runs": [
   {
@@ -23189,6 +23189,406 @@
     "metrics.json": "b333ec8d99981f6bcd959e93bc790679b833b50cac26d3f6984cb8cbfd605af7",
     "trades.parquet": "06520fde7996f6c74a1d32dd213259a5823d8a3b7e9540d54b7fed0e09df8ff0",
     "weights.parquet": "c8c2ee02b1b80c740f1d99ac09c20a367421cc26cdfd72da647909076bd0dec4"
+   }
+  },
+  {
+   "run_id": "20261127T100212Z_bh_NVDA_5b532a6d",
+   "path": "runs/20261127T100212Z_bh_NVDA_5b532a6d",
+   "strategy_id": "bh",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "NVDA",
+   "universe_id": "ai-semis@v1",
+   "schema_version": 3,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
+   "tax_regime": "cto",
+   "split": "validation",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2022-01-03",
+   "last_session": "2026-11-25",
+   "created_at": "2026-11-27T10:02:12.679192+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "b5f692f8576fd4b8c9ef66c6ac5303c934e9fde8",
+   "data_hash": "6f868305f05346a25d5605c32a783f46a301d2b785fbac038e8efb2478e81d0b",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.3909603658664511,
+     "max_drawdown": -0.6268756252084027
+    },
+    "eur_gross": {
+     "cagr": 0.39922549414307595,
+     "max_drawdown": -0.5663455747060814
+    },
+    "eur_net": {
+     "cagr": 0.3181333627786356,
+     "max_drawdown": -0.5663455747060814
+    },
+    "usd_net": {
+     "cagr": 0.3103472401167291,
+     "max_drawdown": -0.6268756252084027
+    }
+   },
+   "trades_per_year": 0.2043928371572468,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "ce7dac6debb5002a3e7b8093d5e081558b484c4d4a96c4f696ed6059d3e9e0ae",
+    "manifest.json": "6a5443e147b36d494a8396437b1e854a05cdcff5fcc12427ef276f51a3f27115",
+    "metrics.json": "e8dd2390fec57c95f598b8f39070ada1f6b0b311a84fd8425ec8832dff8cfe37",
+    "trades.parquet": "0fa868af555bb1b52f5713283d1a640b649df77296caf516a3be1ff7857174c5",
+    "weights.parquet": "4c848ebf650ac7d86a36da58320aa99244de310778e1b8655cd5c0c7d172b025"
+   }
+  },
+  {
+   "run_id": "20261127T100213Z_bh_dca_NVDA_658e3709",
+   "path": "runs/20261127T100213Z_bh_dca_NVDA_658e3709",
+   "strategy_id": "bh_dca",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "NVDA",
+   "universe_id": "ai-semis@v1",
+   "schema_version": 3,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
+   "tax_regime": "cto",
+   "split": "validation",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash",
+    "monthly_eur": 500.0
+   },
+   "first_session": "2022-01-03",
+   "last_session": "2026-11-25",
+   "created_at": "2026-11-27T10:02:13.079621+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "b5f692f8576fd4b8c9ef66c6ac5303c934e9fde8",
+   "data_hash": "6f868305f05346a25d5605c32a783f46a301d2b785fbac038e8efb2478e81d0b",
+   "has_flows": true,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.3886542379170441,
+     "max_drawdown": -0.6285787866794844
+    },
+    "eur_gross": {
+     "cagr": 0.3969056631121215,
+     "max_drawdown": -0.5683250313131107
+    },
+    "eur_net": {
+     "cagr": 0.3285384049369784,
+     "max_drawdown": -0.5683250313131107
+    },
+    "usd_net": null
+   },
+   "trades_per_year": 12.059177392277562,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "bc23440b2168497ad0fb70fabaab56b2d27437ff1136f19287109fccf93c6b46",
+    "manifest.json": "e06ee39acb40f012904d504833d2f15ec48a6c73526018b74a9b7fdf971700bf",
+    "metrics.json": "d61104108272496901559273dfac78803d64b538f1fb634a5fa1c1ea92155f95",
+    "trades.parquet": "6a506694ffaacdf19e521116fc3a12bbbe98b5b6334cd81a60aab21320b1485f",
+    "weights.parquet": "4c848ebf650ac7d86a36da58320aa99244de310778e1b8655cd5c0c7d172b025"
+   }
+  },
+  {
+   "run_id": "20261127T100213Z_donchian_breakout_NVDA_c7cd99dc",
+   "path": "runs/20261127T100213Z_donchian_breakout_NVDA_c7cd99dc",
+   "strategy_id": "donchian_breakout",
+   "strategy_kind": "strategy",
+   "mode": "long_cash",
+   "symbol": "NVDA",
+   "universe_id": "ai-semis@v1",
+   "schema_version": 3,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
+   "tax_regime": "cto",
+   "split": "validation",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash",
+    "entry_n": 20,
+    "exit_m": 20,
+    "regime_filter": false
+   },
+   "first_session": "2022-01-03",
+   "last_session": "2026-11-25",
+   "created_at": "2026-11-27T10:02:13.922772+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "b5f692f8576fd4b8c9ef66c6ac5303c934e9fde8",
+   "data_hash": "6f868305f05346a25d5605c32a783f46a301d2b785fbac038e8efb2478e81d0b",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.2985320560382272,
+     "max_drawdown": -0.35603368116007394
+    },
+    "eur_gross": {
+     "cagr": 0.3062479725214262,
+     "max_drawdown": -0.38240581071502966
+    },
+    "eur_net": {
+     "cagr": 0.21478007358690832,
+     "max_drawdown": -0.48899221242056945
+    },
+    "usd_net": {
+     "cagr": 0.20760445166027064,
+     "max_drawdown": -0.46717147023832983
+    }
+   },
+   "trades_per_year": 3.883463905987689,
+   "eligible": true,
+   "files": {
+    "equity.parquet": "54bcc37c4f70aa698403bcf6df0f0ea01a996e1b352b167c99dc9c6cc8f28463",
+    "manifest.json": "aa355d3ea7d450af04d0cfa97830cda8892086d35f6639d3fa408f351ca3724e",
+    "metrics.json": "d0604d934f281d672b55fb1f30898ee69aa41000d3bf27570a002a124b8a42e2",
+    "trades.parquet": "c9c8d8a3a7e733d558b56f7f3302a759bcc5d53f5667056385632cecfd9c7750",
+    "weights.parquet": "0d1e586a295e23133004abbfe60d6644937eb12bb24fa33725c97bddf2776020"
+   }
+  },
+  {
+   "run_id": "20261127T100213Z_ma200_long_cash_NVDA_cc25cc5f",
+   "path": "runs/20261127T100213Z_ma200_long_cash_NVDA_cc25cc5f",
+   "strategy_id": "ma200_long_cash",
+   "strategy_kind": "benchmark",
+   "mode": "long_cash",
+   "symbol": "NVDA",
+   "universe_id": "ai-semis@v1",
+   "schema_version": 3,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
+   "tax_regime": "cto",
+   "split": "validation",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash"
+   },
+   "first_session": "2022-01-03",
+   "last_session": "2026-11-25",
+   "created_at": "2026-11-27T10:02:13.495289+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "b5f692f8576fd4b8c9ef66c6ac5303c934e9fde8",
+   "data_hash": "6f868305f05346a25d5605c32a783f46a301d2b785fbac038e8efb2478e81d0b",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.36968817328999903,
+     "max_drawdown": -0.46426897280507007
+    },
+    "eur_gross": {
+     "cagr": 0.37782690155934673,
+     "max_drawdown": -0.4412580225521151
+    },
+    "eur_net": {
+     "cagr": 0.29245403649850843,
+     "max_drawdown": -0.4412580225521151
+    },
+    "usd_net": {
+     "cagr": 0.2848195998419307,
+     "max_drawdown": -0.46426897280507007
+    }
+   },
+   "trades_per_year": 1.839535534415221,
+   "eligible": null,
+   "files": {
+    "equity.parquet": "e0199d25a6694035a15b32d4899d822f1fea2e965671e1ecd82c22f565576d83",
+    "manifest.json": "f6d9d51bbf4215f48679c597805c54469a49f3bbebd6c0e4a015a58766165ff3",
+    "metrics.json": "541af359f893500f988fc6b030a5cf096b627b9aa3a66dcaee3c47e1cb056166",
+    "trades.parquet": "b0542fe96f6a50b913593f6377adeae457f747694b6db2e24d51effc3d6dec61",
+    "weights.parquet": "9fb8a3026c5e8fd4220b372fb5edfd85c9f655ae4852ac118f009efe3c3a07e7"
+   }
+  },
+  {
+   "run_id": "20261127T100214Z_rsi2_pullback_NVDA_28fe57ad",
+   "path": "runs/20261127T100214Z_rsi2_pullback_NVDA_28fe57ad",
+   "strategy_id": "rsi2_pullback",
+   "strategy_kind": "strategy",
+   "mode": "long_cash",
+   "symbol": "NVDA",
+   "universe_id": "ai-semis@v1",
+   "schema_version": 3,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
+   "tax_regime": "cto",
+   "split": "validation",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash",
+    "rsi_entry": 20,
+    "exit_rule": "rsi_above_70"
+   },
+   "first_session": "2022-01-03",
+   "last_session": "2026-11-25",
+   "created_at": "2026-11-27T10:02:14.364752+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "b5f692f8576fd4b8c9ef66c6ac5303c934e9fde8",
+   "data_hash": "6f868305f05346a25d5605c32a783f46a301d2b785fbac038e8efb2478e81d0b",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.21598342617725064,
+     "max_drawdown": -0.30393279830897657
+    },
+    "eur_gross": {
+     "cagr": 0.22320883622216137,
+     "max_drawdown": -0.28268543787007683
+    },
+    "eur_net": {
+     "cagr": 0.15764673123898998,
+     "max_drawdown": -0.28268543787007683
+    },
+    "usd_net": {
+     "cagr": 0.15080859201642993,
+     "max_drawdown": -0.30393279830897657
+    }
+   },
+   "trades_per_year": 14.103105763850028,
+   "eligible": true,
+   "files": {
+    "equity.parquet": "141ade8c38f2bd9477b1f360d4d087d5df9a35beae71a24fe724e1cb4791f7a6",
+    "manifest.json": "2bca2dd861f8110febef34a9287f4950ee1b811a73f39d6d97845c18524c5d5f",
+    "metrics.json": "592debbbbc826b0d8116a107b3e7208efecd4aa74269abb58cc5c97438ad3d1a",
+    "trades.parquet": "19da740077cad40a098bc025835120767d89414717906c10da052ba09594f709",
+    "weights.parquet": "2eda24e980cc34d7db0d12403084b28833f03abed9dedb8aa422cecc473d2585"
+   }
+  },
+  {
+   "run_id": "20261127T100215Z_asym_reentry_NVDA_9cde8668",
+   "path": "runs/20261127T100215Z_asym_reentry_NVDA_9cde8668",
+   "strategy_id": "asym_reentry",
+   "strategy_kind": "strategy",
+   "mode": "long_cash",
+   "symbol": "NVDA",
+   "universe_id": "ai-semis@v1",
+   "schema_version": 3,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
+   "tax_regime": "cto",
+   "split": "validation",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash",
+    "exit_ma": 100,
+    "reentry_ma": 20,
+    "vol_reentry": true
+   },
+   "first_session": "2022-01-03",
+   "last_session": "2026-11-25",
+   "created_at": "2026-11-27T10:02:15.507302+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "b5f692f8576fd4b8c9ef66c6ac5303c934e9fde8",
+   "data_hash": "c3955e4283548f0d3c5e43b81767f076fa7adf4bf052faf47ddb91799f9611f5",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.3526095685332762,
+     "max_drawdown": -0.48913554612832266
+    },
+    "eur_gross": {
+     "cagr": 0.36064681522013986,
+     "max_drawdown": -0.5235446915083553
+    },
+    "eur_net": {
+     "cagr": 0.2631310711271786,
+     "max_drawdown": -0.5883802193363306
+    },
+    "usd_net": {
+     "cagr": 0.2556698432001894,
+     "max_drawdown": -0.5586534335880684
+    }
+   },
+   "trades_per_year": 8.175713486289872,
+   "eligible": true,
+   "files": {
+    "equity.parquet": "1d4c3d8d352e832b70dbe4d77ba1ecc8594ad0b027a092639e667e47103bb024",
+    "manifest.json": "7f3fdfc03fd8dfe48e441c7b69ae26584807145718667867af6b43e6bb56db1b",
+    "metrics.json": "bad9d23194b52e2931d8ecde765701d879f9aaca7a1034195b99a6c857a60ffc",
+    "trades.parquet": "db26f5d6d23e7078759ce297c625292710a5bc1ddb0e3801bd3f124406e673fa",
+    "weights.parquet": "4d4833007f0f671edc5c57dcb582ec8a03cf959b68e10ac90d2891be9c9d3db7"
+   }
+  },
+  {
+   "run_id": "20261127T100215Z_core_tactical_NVDA_8bc39cc4",
+   "path": "runs/20261127T100215Z_core_tactical_NVDA_8bc39cc4",
+   "strategy_id": "core_tactical",
+   "strategy_kind": "strategy",
+   "mode": "long_cash",
+   "symbol": "NVDA",
+   "universe_id": "ai-semis@v1",
+   "schema_version": 3,
+   "symbols": [
+    "NVDA"
+   ],
+   "portfolio": false,
+   "tax_regime": "cto",
+   "split": "validation",
+   "origin": "local",
+   "sweep_id": null,
+   "params": {
+    "mode": "long_cash",
+    "core": 0.5,
+    "trim": 0.2
+   },
+   "first_session": "2022-01-03",
+   "last_session": "2026-11-25",
+   "created_at": "2026-11-27T10:02:15.973837+00:00",
+   "regime_version": "ma200-v2-324f48d33452",
+   "equity_frequency": "daily",
+   "git_sha": "b5f692f8576fd4b8c9ef66c6ac5303c934e9fde8",
+   "data_hash": "6f868305f05346a25d5605c32a783f46a301d2b785fbac038e8efb2478e81d0b",
+   "has_flows": false,
+   "metrics": {
+    "usd_gross": {
+     "cagr": 0.2604168524820676,
+     "max_drawdown": -0.5625428987632533
+    },
+    "eur_gross": {
+     "cagr": 0.26790628728080246,
+     "max_drawdown": -0.4915764805407802
+    },
+    "eur_net": {
+     "cagr": 0.20276758993919364,
+     "max_drawdown": -0.4915764805407802
+    },
+    "usd_net": {
+     "cagr": 0.19566292492313453,
+     "max_drawdown": -0.5625428987632533
+    }
+   },
+   "trades_per_year": 2.2483212087297146,
+   "eligible": true,
+   "files": {
+    "equity.parquet": "b9485241ffcc8fa2240455421bfe4865aa0cd69ddf78068c5619e0b6dc44828a",
+    "manifest.json": "2d95d0cd6ce008437264053fd23f781074172ad8df8ccc00503fee90a4f2c465",
+    "metrics.json": "25cd2ce6e4d252c76c9756f5f578b2dc6fa04c3e5922125ac18183e99d08b064",
+    "trades.parquet": "fd83bb42eb69a8390d94c77f243d8c845623b82424c9023d6a07675f012c9bad",
+    "weights.parquet": "f43dc86a12c038dda4fe4a8987c32cf33e5a3875a622bf979c238e94dfaf2e62"
    }
   }
  ]

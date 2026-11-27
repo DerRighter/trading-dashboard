@@ -1,0 +1,66 @@
+{
+ "run_id": "20261127T100212Z_bh_NVDA_5b532a6d",
+ "schema_version": 3,
+ "strategy_id": "bh",
+ "strategy_kind": "benchmark",
+ "params": {
+  "mode": "long_cash"
+ },
+ "mode": "long_cash",
+ "symbol": "NVDA",
+ "symbols": [
+  "NVDA"
+ ],
+ "portfolio": false,
+ "universe": {
+  "id": "ai-semis@v1",
+  "name": "ai-semis",
+  "version": 1,
+  "tax_regime": "cto"
+ },
+ "regime": {
+  "id": "ma200",
+  "version": 2,
+  "regime_version": "ma200-v2-324f48d33452"
+ },
+ "period": {
+  "start": "2022-01-01",
+  "end": null,
+  "first_session": "2022-01-03",
+  "last_session": "2026-11-25"
+ },
+ "split": "validation",
+ "git_sha": "b5f692f8576fd4b8c9ef66c6ac5303c934e9fde8",
+ "git_dirty": false,
+ "data_hash": "6f868305f05346a25d5605c32a783f46a301d2b785fbac038e8efb2478e81d0b",
+ "origin": "local",
+ "sweep_id": null,
+ "created_at": "2026-11-27T10:02:12.679192+00:00",
+ "duration_s": 0.391,
+ "currency": {
+  "account": "USD",
+  "investor": "EUR",
+  "fx_symbol": "EURUSD",
+  "rule": "EUR = USD / EURUSD à chaque date"
+ },
+ "costs": {
+  "commission_bps": 1.0,
+  "commission_min_usd": 1.0,
+  "slippage_bps": 2.0
+ },
+ "tax": {
+  "regime": "cto",
+  "mode": "terminal",
+  "rate": 0.314,
+  "loss_carryforward_years": 10,
+  "pea_social_rate": 0.186,
+  "pea_exemption_years": 5,
+  "label": "estimation pour comparaison, pas un calcul fiscal"
+ },
+ "equity_frequency": "daily",
+ "engine": {
+  "execution": "signal à la clôture de J, exécution à l'ouverture de J+1",
+  "initial_eur": 10000.0,
+  "research_config_version": 1
+ }
+}
